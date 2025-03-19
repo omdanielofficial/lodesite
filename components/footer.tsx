@@ -18,7 +18,7 @@ const Footer = () => {
       items: [
         { name: "About Us", url: "/about" },
         { name: "Contact", url: "https://billing.lodestone.host/submitticket.php" },
-        { name: "Knowledgebase", url: "https://lodestone.host/knowledgebase" },
+        { name: "Knowledgebase", url: "https://billing.lodestone.host/knowledgebase" },
         { name: "Network Status", url: "https://status.lodestone.host" },
       ],
     },

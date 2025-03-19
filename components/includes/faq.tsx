@@ -53,7 +53,7 @@ const FAQs = () => {
               Full FAQ
             </Link>
             <Link
-              href="https://lodestone.host/knowledgebase"
+              href="https://billing.lodestone.host/knowledgebase"
               className="rounded-xl bg-teritiary px-6 py-3 text-sm font-semibold hover:bg-secondary hover:outline hover:outline-teritiary"
             >
               Knowledgebase

@@ -3,10 +3,10 @@
   "/favicon.ico/route": "/favicon.ico",
   "/page": "/",
   "/games/minecraft-server-hosting/page": "/games/minecraft-server-hosting",
-  "/about/page": "/about",
-  "/directadmin-login/page": "/directadmin-login",
   "/games/page": "/games",
-  "/web-hosting/page": "/web-hosting",
+  "/directadmin-login/page": "/directadmin-login",
+  "/about/page": "/about",
   "/privacy-policy/page": "/privacy-policy",
+  "/web-hosting/page": "/web-hosting",
   "/terms-of-service/page": "/terms-of-service"
 }

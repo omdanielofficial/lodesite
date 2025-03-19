@@ -131,7 +131,7 @@ const plans = [
 
 const features = [
   "Bungeecord Support",
-  "Bedrock & MCPC Support",
+  "Bedrock Edition Support",
   "Java Version Switcher",
   "99.99% Uptime",
   "Task Scheduling",

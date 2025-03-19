@@ -50,7 +50,7 @@ const menuItems = [
       },
       {
         title: "Knowledgebase",
-        href: "https://lodestone.host/knowledgebase",
+        href: "https://billing.lodestone.host/knowledgebase",
         icon: <FontAwesomeIcon icon={faBook} className="h-5 w-5" />,
       },
       {
