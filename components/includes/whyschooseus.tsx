@@ -16,7 +16,7 @@ const features = [
     ),
     title: "99.99% Uptime",
     description:
-      "Our infrastructure, housed in top-tier data centers, allows us to boast an impressive SLA-backed 99.99% uptime for all services.",
+      "Our infrastructure, housed in top-tier data centres, allows us to boast an impressive SLA-backed 99.99% uptime for all services.",
   },
   {
     icon: (
@@ -71,9 +71,9 @@ const features = [
         />
       </svg>
     ),
-    title: "NVMe Storage",
+    title: "NVMe SSDs",
     description:
-      "Immerse yourself in lightning-fast load times and seamless performance with NVMe storage technology.",
+      "Immerse yourself in lightning-fast load times with NVMe storage technology.",
   },
   {
     icon: (
