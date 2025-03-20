@@ -33,7 +33,7 @@ const About = () => {
             About Lodestone
           </h1>
           <p className="w-full text-gray-300 md:w-[700px]">
-          We&apos;re committed to providing top-tier game hosting that prioritise performance, sustainability, and genuine customer relationships.
+          We&apos;re committed to providing top-tier hosting solutions that prioritise performance, sustainability, and genuine customer relationships.
           </p>
         </div>
       </section>
