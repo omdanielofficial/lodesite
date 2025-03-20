@@ -127,7 +127,7 @@ const TermsOfService = () => {
                     <strong>4.7.</strong> We reserve the right to pass your debt onto a third party recovery agent and you accept all liability for the recovery of our costs from you.
                   </p>
                   <p>
-                    <strong>4.8.</strong>If you withdraw any payments made via a bank, credit card or PayPal (a &quot;chargeback&quot;), we reserve the right to interrupt, suspend or cancel your services and/or charge a fee. Such action is without prejudice to our right to recover any and all outstanding sums from you and your obligation to pay the same to us.
+                    <strong>4.8.</strong> If you withdraw any payments made via a bank, credit card or PayPal (a &quot;chargeback&quot;), we reserve the right to interrupt, suspend or cancel your services and/or charge a fee. Such action is without prejudice to our right to recover any and all outstanding sums from you and your obligation to pay the same to us.
                   </p>
                 </>
               }
