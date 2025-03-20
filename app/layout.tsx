@@ -93,11 +93,12 @@ export default function RootLayout({
       lang="en"
       className="scrollbar-thin scrollbar-thumb-violet-800 scrollbar-track-primary scrollbar-thumb-rounded-lg scrollbar-track-rounded-lg"
     >
-      {/* 
-      <GoogleTagManager gtmId="GTM-ABCDEFGH" />
-      <GoogleAnalytics gaId="G-ABCDEFGH" /> 
-      */}
-      <body className={montserrat.className}>
+      <head>
+        {/* Add any meta tags or external scripts here */}
+      </head>
+      <body className="montserrat">
+        <GoogleTagManager gtmId="GT-NGS98CTQ" />
+        <GoogleAnalytics gaId="G-9J1KM899H6" />
         <div className="text-white">
           <UpdateSchemaOrg />
           <CanonicalURL />
