@@ -291,9 +291,9 @@ const Pricing = () => {
                 </p>
               </div>
             </div>
-            <Link href="/contact">
+            <Link href="https://billing.lodestone.host/submitticket.php">
               <button className="w-40 rounded-xl bg-teritiary py-4 hover:bg-opacity-0 hover:outline hover:outline-teritiary active:bg-teritiary">
-                Contact Sales
+                Open Ticket
               </button>
             </Link>
           </div>

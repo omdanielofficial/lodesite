@@ -191,14 +191,14 @@ const Pricing = () => {
               <div className="flex flex-col">
                 <h2 className="font-bold">Need help picking a plan?</h2>
                 <p>
-                  Our sales team is available to answer any questions you may
+                  Our support team is available to answer any questions you may
                   have.
                 </p>
               </div>
             </div>
-            <Link href="/contact">
+            <Link href="https://billing.lodestone.host/submitticket.php">
               <button className="w-40 rounded-xl bg-teritiary py-4 hover:bg-opacity-0 hover:outline hover:outline-teritiary active:bg-teritiary">
-                Contact Sales
+                Open Ticket
               </button>
             </Link>
           </div>
