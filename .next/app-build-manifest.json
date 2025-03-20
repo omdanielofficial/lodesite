@@ -18,7 +18,7 @@
       "static/chunks/63-ce6c719f0fa4b151.js",
       "static/chunks/787-4cf1a613858f59c4.js",
       "static/chunks/276-415ef897f3a727f1.js",
-      "static/chunks/app/layout-6542f0ff561b86bb.js"
+      "static/chunks/app/layout-5a87b82dd9e0bef2.js"
     ],
     "/page": [
       "static/chunks/webpack-08240b2d702a40db.js",
@@ -30,14 +30,6 @@
       "static/chunks/787-4cf1a613858f59c4.js",
       "static/chunks/app/page-92343ff3b9659fcb.js"
     ],
-    "/about/page": [
-      "static/chunks/webpack-08240b2d702a40db.js",
-      "static/chunks/4bd1b696-5b2b1e7b5478d01a.js",
-      "static/chunks/684-d14ea7d978a5ee01.js",
-      "static/chunks/main-app-cd58424a6e1e8c6f.js",
-      "static/chunks/63-ce6c719f0fa4b151.js",
-      "static/chunks/app/about/page-efa526c1bd201e6f.js"
-    ],
     "/games/minecraft-server-hosting/page": [
       "static/chunks/webpack-08240b2d702a40db.js",
       "static/chunks/4bd1b696-5b2b1e7b5478d01a.js",
@@ -48,12 +40,30 @@
       "static/chunks/787-4cf1a613858f59c4.js",
       "static/chunks/app/games/minecraft-server-hosting/page-079970c22184bf3a.js"
     ],
+    "/web-hosting/page": [
+      "static/chunks/webpack-08240b2d702a40db.js",
+      "static/chunks/4bd1b696-5b2b1e7b5478d01a.js",
+      "static/chunks/684-d14ea7d978a5ee01.js",
+      "static/chunks/main-app-cd58424a6e1e8c6f.js",
+      "static/chunks/870fdd6f-461bb83c290506df.js",
+      "static/chunks/63-ce6c719f0fa4b151.js",
+      "static/chunks/787-4cf1a613858f59c4.js",
+      "static/chunks/app/web-hosting/page-60686f71988e8b17.js"
+    ],
     "/directadmin-login/page": [
       "static/chunks/webpack-08240b2d702a40db.js",
       "static/chunks/4bd1b696-5b2b1e7b5478d01a.js",
       "static/chunks/684-d14ea7d978a5ee01.js",
       "static/chunks/main-app-cd58424a6e1e8c6f.js",
       "static/chunks/app/directadmin-login/page-1ba5270890090e09.js"
+    ],
+    "/about/page": [
+      "static/chunks/webpack-08240b2d702a40db.js",
+      "static/chunks/4bd1b696-5b2b1e7b5478d01a.js",
+      "static/chunks/684-d14ea7d978a5ee01.js",
+      "static/chunks/main-app-cd58424a6e1e8c6f.js",
+      "static/chunks/63-ce6c719f0fa4b151.js",
+      "static/chunks/app/about/page-efa526c1bd201e6f.js"
     ],
     "/games/page": [
       "static/chunks/webpack-08240b2d702a40db.js",
@@ -64,16 +74,6 @@
       "static/chunks/63-ce6c719f0fa4b151.js",
       "static/chunks/787-4cf1a613858f59c4.js",
       "static/chunks/app/games/page-962ebefa6fe20225.js"
-    ],
-    "/web-hosting/page": [
-      "static/chunks/webpack-08240b2d702a40db.js",
-      "static/chunks/4bd1b696-5b2b1e7b5478d01a.js",
-      "static/chunks/684-d14ea7d978a5ee01.js",
-      "static/chunks/main-app-cd58424a6e1e8c6f.js",
-      "static/chunks/870fdd6f-461bb83c290506df.js",
-      "static/chunks/63-ce6c719f0fa4b151.js",
-      "static/chunks/787-4cf1a613858f59c4.js",
-      "static/chunks/app/web-hosting/page-60686f71988e8b17.js"
     ],
     "/privacy-policy/page": [
       "static/chunks/webpack-08240b2d702a40db.js",

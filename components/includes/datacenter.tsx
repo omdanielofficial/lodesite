@@ -18,7 +18,7 @@ const DataCenter = () => {
 
   const dataCenters = [
     {
-      name: "Florida, US (Coming Soon)",
+      name: "Miami, US (Coming Soon)",
       flagUrl: "/assets/images/worldmap/us.webp",
       latitude: -2.8,
       longitude: -50.6,
