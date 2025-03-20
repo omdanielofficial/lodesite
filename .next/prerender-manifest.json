@@ -30,7 +30,7 @@
         "x-next-revalidate-tag-token"
       ]
     },
-    "/web-hosting": {
+    "/": {
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -43,8 +43,32 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/web-hosting",
-      "dataRoute": "/web-hosting.rsc",
+      "srcRoute": "/",
+      "dataRoute": "/index.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/privacy-policy": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "Next-Action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/privacy-policy",
+      "dataRoute": "/privacy-policy.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -102,7 +126,7 @@
         "x-next-revalidate-tag-token"
       ]
     },
-    "/about": {
+    "/games": {
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -115,56 +139,8 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/about",
-      "dataRoute": "/about.rsc",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
-    "/privacy-policy": {
-      "experimentalBypassFor": [
-        {
-          "type": "header",
-          "key": "Next-Action"
-        },
-        {
-          "type": "header",
-          "key": "content-type",
-          "value": "multipart/form-data;.*"
-        }
-      ],
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/privacy-policy",
-      "dataRoute": "/privacy-policy.rsc",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
-    "/": {
-      "experimentalBypassFor": [
-        {
-          "type": "header",
-          "key": "Next-Action"
-        },
-        {
-          "type": "header",
-          "key": "content-type",
-          "value": "multipart/form-data;.*"
-        }
-      ],
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/",
-      "dataRoute": "/index.rsc",
+      "srcRoute": "/games",
+      "dataRoute": "/games.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -198,7 +174,7 @@
         "x-next-revalidate-tag-token"
       ]
     },
-    "/games": {
+    "/about": {
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -211,8 +187,32 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/games",
-      "dataRoute": "/games.rsc",
+      "srcRoute": "/about",
+      "dataRoute": "/about.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/web-hosting": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "Next-Action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/web-hosting",
+      "dataRoute": "/web-hosting.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -226,8 +226,8 @@
   "dynamicRoutes": {},
   "notFoundRoutes": [],
   "preview": {
-    "previewModeId": "5e7c19dd0efbd76ea4fe747571e46a29",
-    "previewModeSigningKey": "450b9732c521c7e2321c290d98a7aba0a7bfdb9ee5bf43cf4b3571f813725735",
-    "previewModeEncryptionKey": "11280fb220e93c4dcc6dcb0af54ee414650b32d419ff9d538f8ca9540008b106"
+    "previewModeId": "44e206260b046cf2912958bdc1aaf661",
+    "previewModeSigningKey": "e28aa610ecd8b2603bf917dab7a81a4b2f3a07cbeec2a9ee6a85348be7eb941f",
+    "previewModeEncryptionKey": "a5c8a23acd9cac170545c793fefa30651a7c224d93c82dd16f6dc7bde44f49d5"
   }
 }

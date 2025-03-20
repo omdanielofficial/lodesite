@@ -46,7 +46,7 @@ const Footer = () => {
           <div className="hidden gap-2 md:flex">
             <FontAwesomeIcon icon={faBullhorn} className="text-xl" />
             <p>
-              Join our Discord community for exciting news,   discussions, and more!
+              Join our Discord community for exciting news, discussions, and more!
             </p>
           </div>
           <Link

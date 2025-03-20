@@ -286,7 +286,7 @@ const Pricing = () => {
               <div className="flex flex-col">
                 <h2 className="font-bold">Need help picking a plan?</h2>
                 <p>
-                  Our sales team is available to answer any questions you may
+                  Our support team is available to answer any questions you may
                   have.
                 </p>
               </div>
