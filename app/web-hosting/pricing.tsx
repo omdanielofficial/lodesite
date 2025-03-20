@@ -33,8 +33,8 @@ const plans = [
     subdomains: "5",
     databases: "5",
     image: "/assets/images/web-hosting/standard.png",
-    linkbasic: "https://billing.lodestone.host/index.php?rp=/store/minecraft-hosting/dirt",
-    linkpremium: "",
+    linkbasic: "https://billing.lodestone.host/index.php?rp=/store/web-hosting/standard",
+    linkpremium: "https://billing.lodestone.host/index.php?rp=/store/web-hosting/standard",
     color: "#FCB577",
   },
   {
@@ -49,8 +49,8 @@ const plans = [
     subdomains: "15",
     databases: "15",
     image: "/assets/images/web-hosting/deluxe.png",
-    linkbasic: "https://billing.lodestone.host/index.php?rp=/store/minecraft-hosting/coal",
-    linkpremium: "",
+    linkbasic: "https://billing.lodestone.host/index.php?rp=/store/web-hosting/deluxe",
+    linkpremium: "https://billing.lodestone.host/index.php?rp=/store/web-hosting/deluxe",
     color: "#1DCDE2",
   },
   {
@@ -65,8 +65,8 @@ const plans = [
     subdomains: "30",
     databases: "30",
     image: "/assets/images/web-hosting/ultimate.png",
-    linkbasic: "https://billing.lodestone.host/index.php?rp=/store/minecraft-hosting/iron",
-    linkpremium: "",
+    linkbasic: "https://billing.lodestone.host/index.php?rp=/store/web-hosting/ultimate",
+    linkpremium: "https://billing.lodestone.host/index.php?rp=/store/web-hosting/ultimate",
     color: "#65E185",
   },
 ];

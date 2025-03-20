@@ -30,7 +30,7 @@
         "x-next-revalidate-tag-token"
       ]
     },
-    "/directadmin-login": {
+    "/about": {
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -43,56 +43,8 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/directadmin-login",
-      "dataRoute": "/directadmin-login.rsc",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
-    "/terms-of-service": {
-      "experimentalBypassFor": [
-        {
-          "type": "header",
-          "key": "Next-Action"
-        },
-        {
-          "type": "header",
-          "key": "content-type",
-          "value": "multipart/form-data;.*"
-        }
-      ],
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/terms-of-service",
-      "dataRoute": "/terms-of-service.rsc",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
-    "/": {
-      "experimentalBypassFor": [
-        {
-          "type": "header",
-          "key": "Next-Action"
-        },
-        {
-          "type": "header",
-          "key": "content-type",
-          "value": "multipart/form-data;.*"
-        }
-      ],
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/",
-      "dataRoute": "/index.rsc",
+      "srcRoute": "/about",
+      "dataRoute": "/about.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -126,30 +78,6 @@
         "x-next-revalidate-tag-token"
       ]
     },
-    "/web-hosting": {
-      "experimentalBypassFor": [
-        {
-          "type": "header",
-          "key": "Next-Action"
-        },
-        {
-          "type": "header",
-          "key": "content-type",
-          "value": "multipart/form-data;.*"
-        }
-      ],
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/web-hosting",
-      "dataRoute": "/web-hosting.rsc",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
     "/games/minecraft-server-hosting": {
       "experimentalBypassFor": [
         {
@@ -165,6 +93,30 @@
       "initialRevalidateSeconds": false,
       "srcRoute": "/games/minecraft-server-hosting",
       "dataRoute": "/games/minecraft-server-hosting.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/web-hosting": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "Next-Action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/web-hosting",
+      "dataRoute": "/web-hosting.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -198,7 +150,7 @@
         "x-next-revalidate-tag-token"
       ]
     },
-    "/about": {
+    "/": {
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -211,8 +163,56 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/about",
-      "dataRoute": "/about.rsc",
+      "srcRoute": "/",
+      "dataRoute": "/index.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/terms-of-service": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "Next-Action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/terms-of-service",
+      "dataRoute": "/terms-of-service.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/directadmin-login": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "Next-Action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/directadmin-login",
+      "dataRoute": "/directadmin-login.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -226,8 +226,8 @@
   "dynamicRoutes": {},
   "notFoundRoutes": [],
   "preview": {
-    "previewModeId": "7c01718d45a22fa4cd6e90eb5a8eb11e",
-    "previewModeSigningKey": "6941ebdfce5125a4f41405ae7e17f34057f033d81d1717d8817f8aee9933aed0",
-    "previewModeEncryptionKey": "ca01e908688b541128c251376a52e5401dc5bfa597c0caa3bec856ff8006208e"
+    "previewModeId": "635d3daa0533c50dc5c1a47ea5a5f412",
+    "previewModeSigningKey": "def40db9e58c040cbc671db6c210442c1ebab25b9bf365c4663af39aacce74c4",
+    "previewModeEncryptionKey": "a5603a88614e7dbdc53b36fe9edd358daad38b8cccac78a20e8ff6b1a5f7e4a3"
   }
 }

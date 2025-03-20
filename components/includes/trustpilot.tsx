@@ -13,7 +13,7 @@ const Trustpilot = () => {
               Your Unbeatable Gaming Companion
             </div>
             <div className="text-center text-gray-300">
-            &quot;<i>Amazing! They are dedicated and reliable. They truly believe in what they do and in proving amazing but still affordable services that are all the highest of quality! I will always be with them and refer them to anyone and everyone I know.</i>&quot;
+            &quot;<i>Amazing! They truly believe in proving amazing but still affordable services that are all the highest of quality. <br></br> I will always be with Lodestone and refer them to anyone and everyone I know.</i>&quot;
             </div>
             <Link href="https://trustpilot.com/review/lodestone.host">
               <div className="subheader-text flex flex-row flex-wrap justify-center gap-2.5 text-center text-base">
