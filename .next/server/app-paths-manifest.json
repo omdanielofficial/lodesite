@@ -3,10 +3,10 @@
   "/favicon.ico/route": "app/favicon.ico/route.js",
   "/page": "app/page.js",
   "/games/minecraft-server-hosting/page": "app/games/minecraft-server-hosting/page.js",
+  "/web-hosting/page": "app/web-hosting/page.js",
   "/directadmin-login/page": "app/directadmin-login/page.js",
   "/games/page": "app/games/page.js",
   "/about/page": "app/about/page.js",
-  "/web-hosting/page": "app/web-hosting/page.js",
   "/privacy-policy/page": "app/privacy-policy/page.js",
   "/terms-of-service/page": "app/terms-of-service/page.js"
 }
