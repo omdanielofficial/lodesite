@@ -11,12 +11,12 @@ import {
   faLock,
   faPhone,
   faWifi,
+  faRightToBracket,
 } from "@fortawesome/free-solid-svg-icons";
 
 const menuItems = [
   { name: "Home", href: "/" },
   { name: "Minecraft", href: "/games/minecraft-server-hosting" },
-  { name: "Websites", href: "/web-hosting" },
   {
     name: "Games",
     href: "/games",
@@ -42,11 +42,6 @@ const menuItems = [
         title: "About Us",
         href: "/about",
         icon: <FontAwesomeIcon icon={faCircleInfo} className="h-5 w-5" />,
-      },
-      {
-        title: "Contact",
-        href: "https://billing.lodestone.host/submitticket.php",
-        icon: <FontAwesomeIcon icon={faPhone} className="h-5 w-5" />,
       },
       {
         title: "Knowledgebase",
@@ -193,7 +188,7 @@ const Navbar = () => {
           href="https://billing.lodestone.host"
           className="hidden items-center gap-2 rounded-md bg-violet-600 px-4 py-2 font-semibold text-white hover:bg-violet-700 active:bg-violet-600 lg:flex"
         >
-          <FontAwesomeIcon icon={faLock} className="h-5 w-5" />
+          <FontAwesomeIcon icon={faRightToBracket} className="h-5 w-5" />
           Client Portal
         </Link>
 

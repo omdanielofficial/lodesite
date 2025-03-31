@@ -135,8 +135,8 @@ const features = [
   "Java Version Switcher",
   "99.99% Uptime",
   "Task Scheduling",
-  "Full FTP Access",
-  "1Gbps Uplink",
+  "Full SFTP Access",
+  "1 Gbps Uplink",
   "All Modpacks",
   "Custom JAR Support",
   "Instant Setup",
@@ -265,8 +265,8 @@ const Pricing = () => {
               <div className="flex items-center gap-1">
                 <FontAwesomeIcon icon={faHardDrive} className="w-5" />{" "}
                 {isPremium
-                  ? "NVMe Storage"
-                  : "NVMe Storage"}
+                  ? "NVMe SSDs"
+                  : "NVMe SSDs"}
               </div>
             </div>
           </div>
@@ -293,7 +293,7 @@ const Pricing = () => {
             </div>
             <Link href="https://billing.lodestone.host/submitticket.php">
               <button className="w-40 rounded-xl bg-teritiary py-4 hover:bg-opacity-0 hover:outline hover:outline-teritiary active:bg-teritiary">
-                Open Ticket
+                Get in Touch
               </button>
             </Link>
           </div>

@@ -35,12 +35,6 @@ const DataCenter = () => {
       latitude: -43,
       longitude: 52,
     },
-    {
-      name: "Luxembourg, LU",
-      flagUrl: "/assets/images/worldmap/lu.png",
-      latitude: 15.8,
-      longitude: -4.5,
-    },
   ];
 
   useEffect(() => {

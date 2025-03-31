@@ -50,13 +50,13 @@ const FAQs = () => {
               href="https://lodestone-technologies.gitbook.io/knowledgebase/faq"
               className="rounded-xl bg-violet-600 px-6 py-3 text-sm font-semibold hover:bg-violet-700"
             >
-              Full FAQ
+              Knowledgebase
             </Link>
             <Link
-              href="https://billing.lodestone.host/knowledgebase"
+              href="https://billing.lodestone.host/submitticket.php"
               className="rounded-xl bg-teritiary px-6 py-3 text-sm font-semibold hover:bg-secondary hover:outline hover:outline-teritiary"
             >
-              Knowledgebase
+              Contact Us
             </Link>
           </div>
         </div>

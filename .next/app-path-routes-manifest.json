@@ -2,11 +2,10 @@
   "/_not-found/page": "/_not-found",
   "/favicon.ico/route": "/favicon.ico",
   "/page": "/",
-  "/games/minecraft-server-hosting/page": "/games/minecraft-server-hosting",
-  "/web-hosting/page": "/web-hosting",
-  "/directadmin-login/page": "/directadmin-login",
-  "/games/page": "/games",
+  "/sitemap/page": "/sitemap",
   "/about/page": "/about",
+  "/games/minecraft-server-hosting/page": "/games/minecraft-server-hosting",
   "/privacy-policy/page": "/privacy-policy",
+  "/games/page": "/games",
   "/terms-of-service/page": "/terms-of-service"
 }

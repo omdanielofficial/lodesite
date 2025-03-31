@@ -54,7 +54,7 @@ const features = [
     ),
     title: "DDoS Protection",
     description:
-      "Our services are protected by enterprise-level security against DDoS attacks, ensuring your services remain online seamlessly.",
+      "Our services are protected by enterprise-level security against DDoS attacks, ensuring your servers remain online seamlessly.",
   },
   {
     icon: (
@@ -92,7 +92,7 @@ const features = [
     ),
     title: "Enterprise Hardware",
     description:
-      "We use high-performance AMD Ryzen 9 and Intel Core processors, to deliver unparalleled performance.",
+      "We use high-performance AMD Ryzen and Intel Core processors, to deliver unparalleled performance.",
   },
   {
     icon: (
@@ -117,7 +117,7 @@ const features = [
     ),
     title: "Intuitive Panels",
     description:
-      "We use high quality and intuitive control panels, allowing you to manage your services with ease.",
+      "We use a modified version of the industry-leading Pterodactyl Panel, allowing you to manage your servers with ease.",
   },
 ];
 

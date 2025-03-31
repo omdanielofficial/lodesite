@@ -6,10 +6,9 @@ import { faBullhorn } from "@fortawesome/free-solid-svg-icons";
 const Footer = () => {
   const sections = [
     {
-      category: "Services",
+      category: "Hosting",
       items: [
-        { name: "Minecraft", url: "/games/minecraft-server-hosting" },
-        { name: "Web Hosting", url: "/web-hosting" },
+        { name: "Minecraft: Java Edition", url: "/games/minecraft-server-hosting" },
         { name: "All Games", url: "/games" },
       ],
     },
@@ -17,7 +16,6 @@ const Footer = () => {
       category: "Company",
       items: [
         { name: "About Us", url: "/about" },
-        { name: "Contact", url: "https://billing.lodestone.host/submitticket.php" },
         { name: "Knowledgebase", url: "https://billing.lodestone.host/knowledgebase" },
         { name: "Network Status", url: "https://status.lodestone.host" },
       ],
@@ -34,7 +32,7 @@ const Footer = () => {
       items: [
         { name: "Client Portal", url: "https://billing.lodestone.host/" },
         { name: "Game Panel", url: "https://game.lodestone.host" },
-        { name: "DirectAdmin Panel", url: "/directadmin-login" },
+        { name: "Dedicated Panel", url: "https://dedicated.lodestone.host" },
       ],
     },
   ];

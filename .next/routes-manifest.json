@@ -34,12 +34,6 @@
       "namedRegex": "^/about(?:/)?$"
     },
     {
-      "page": "/directadmin-login",
-      "regex": "^/directadmin\\-login(?:/)?$",
-      "routeKeys": {},
-      "namedRegex": "^/directadmin\\-login(?:/)?$"
-    },
-    {
       "page": "/favicon.ico",
       "regex": "^/favicon\\.ico(?:/)?$",
       "routeKeys": {},
@@ -64,16 +58,16 @@
       "namedRegex": "^/privacy\\-policy(?:/)?$"
     },
     {
+      "page": "/sitemap",
+      "regex": "^/sitemap(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/sitemap(?:/)?$"
+    },
+    {
       "page": "/terms-of-service",
       "regex": "^/terms\\-of\\-service(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/terms\\-of\\-service(?:/)?$"
-    },
-    {
-      "page": "/web-hosting",
-      "regex": "^/web\\-hosting(?:/)?$",
-      "routeKeys": {},
-      "namedRegex": "^/web\\-hosting(?:/)?$"
     }
   ],
   "dataRoutes": [],
