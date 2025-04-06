@@ -54,7 +54,7 @@ const TermsOfService = () => {
           <div className="documentStyling col-span-4 lg:col-span-3">
             <h1>Privacy Policy</h1>
             <p>
-              Last Updated: <strong>17 February 2025</strong>
+              Last Updated: <strong>6 April 2025</strong>
             </p>
             <br></br>
             <p>
@@ -142,7 +142,7 @@ const TermsOfService = () => {
                     <strong>5.1.</strong> All additional setup fees for services are strictly non-refundable.
                   </p>
                   <p>
-                    <strong>5.2.</strong> You are entitled to a full refund within 24 hours of initial purchase of the service(s). Certain services are strictly non-refundable, and this will be clearly stated on the website.
+                    <strong>5.2.</strong> You are entitled to a full refund within 24 hours of initial purchase of the service(s). Dedicated servers are strictly non-refundable, and this will be clearly stated on the website.
                   </p>
                   <p>
                     <strong>5.3.</strong> If you breach these terms, you will not be entitled to a refund, in the event of a cancellation/termination.
@@ -262,7 +262,7 @@ const TermsOfService = () => {
                     <strong>9.7.</strong> Using our services for Denial of Service (DoS) or Distributed Denial of Service (DDoS) attacks is strictly prohibited.
                   </p>
                   <p>
-                    <strong>9.8.</strong> Using our services for cryptocurrency mining is strictly prohibited.
+                    <strong>9.8.</strong> Using our services for cryptocurrency mining is strictly prohibited unless you select the additional crypto mining fee at checkout. 
                   </p>
                 </>
               }

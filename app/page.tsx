@@ -7,7 +7,7 @@ import { faPlay, faTurnDown } from "@fortawesome/free-solid-svg-icons";
 
 const games = [
   {
-    name: "Minecraft: Java Edition",
+    name: "Minecraft",
     src: "/assets/images/homepage/minecraft.webp",
     alt: "minecraft server hosting cover image",
     background: { src: "/assets/images/homepage/background-minecraft.webp" },
@@ -19,7 +19,7 @@ const games = [
     background: { src: "/assets/images/homepage/background-palworld.webp" },
   },
   {
-    name: "ARK: Survival Evolved",
+    name: "ARK",
     src: "/assets/images/homepage/arksurvivalevolved.webp",
     alt: "arksurvivalevolved server hosting cover image",
     background: { src: "/assets/images/homepage/background-ark.webp" },
@@ -82,11 +82,11 @@ const HomePage = () => {
         <div className="mx-auto flex max-w-[48rem] flex-col items-center gap-6 text-center lg:mx-0 lg:items-start lg:text-left">
           <h1 className="text-3xl font-black sm:text-4xl md:text-5xl">
             {activeGame === "Games"
-              ? "Premium game hosting at affordable prices."
-              : `${activeGame} Server Hosting`}
+              ? "Powerful, reliable, and affordable game hosting."
+              : `${activeGame} Hosting`}
           </h1>
           <p className="max-w-xl">
-          Whether you&apos;re hosting a server for a few friends or a large community, you can trust us to maintain performance and uptime. Start your adventure in minutes from as little as £1/mo.
+          Whether you&apos;re hosting a server for a few friends or a large community, you can trust us to maintain performance and uptime. Choose from 20+ games and start your adventure in minutes from as little as £1/mo.
           </p>
         </div>
         <Link href="/games" className="lg:hidden">

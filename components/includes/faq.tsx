@@ -18,20 +18,24 @@ const FAQs = () => {
 
   const faqData = [
     {
-      question: "Where are your servers located?",
+      question: "🌍 Where are your servers located?",
       answer: `Our services are hosted in data centres located around the world. If possible, we can transfer your server to a different location completely free-of-charge, because you shouldn't have to pay extra for no reason.`,
     },
     {
-      question: "Do you offer refunds?",
-      answer: `Yes, we offer a 24 hour money-back guarantee on most of our services. If you're not satisfied with our services within the first 24 hours after purchase, we'll provide a full refund, no questions asked.`,
+      question: "💵 Do you offer refunds?",
+      answer: `Yes, we offer a 24 hour money-back guarantee for all services except dedicated servers. If you're not satisfied with our services within the first 24 hours after purchase, we'll provide a full refund, no questions asked.`,
     },
     {
-      question: "Can I upgrade my plan?",
+      question: "🚀 Can I upgrade my plan?",
       answer: `We understand the importance of having flexibility and being able to upgrade and downgrade your plan. For most services, you're able to easily switch between plans in only a few clicks. When upgrading, you'll only have to pay the difference in cost.`,
     },
     {
-      question: "Which payment methods are accepted?",
+      question: "💳 Which payment methods are accepted?",
       answer: `We support payments through PayPal or credit/debit cards (Stripe), with the option to choose either recurring or manual billing cycles. At Lodestone, we make the billing process simple so that you can focus on managing your services.`,
+    },
+    {
+      question: "📦 How much RAM do I need?",
+      answer: `The amount of RAM (memory) that you'll need depends on the game you're running, the number of players, and more. We have a Knowledgebase article outlining the minimum RAM recommendations for our games.`,
     },
   ];
 
@@ -43,7 +47,7 @@ const FAQs = () => {
             Frequently Asked Questions
           </h2>
           <p className="mt-3 max-w-md text-center text-gray-300 lg:text-left">
-          Find quick answers to common questions about our services. Still have questions? Create a ticket to contact our support team.
+          Find quick answers to common questions about our services. Still have questions? Visit our Knowledgebase or create a ticket to contact our support team.
           </p>
           <div className="mt-6 flex flex-wrap gap-2.5">
             <Link

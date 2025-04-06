@@ -39,7 +39,7 @@ const Games = () => {
                     Game Hosting
                   </h1>
                   <p className="text-gray-300">
-                    Choose your favourite game and easily launch a server in minutes.
+                    Choose from 20+ games and easily launch a server in minutes.
                   </p>
                 </div>
                 <Image

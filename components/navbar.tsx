@@ -23,18 +23,43 @@ const menuItems = [
     subItems: [
       {
         title: "Minecraft",
-        subtitle: "Explore, build, survive",
+        subtitle: "Starting from £1.00/mo",
         href: "/games/minecraft-server-hosting",
         imageSrc: "/assets/images/navbar/games-minecraft.webp",
       },
       {
-        title: "View All Games",
+        title: "Palworld",
+        subtitle: "Starting from £1.00/mo",
+        href: "/games/palworld-server-hosting",
+        imageSrc: "/assets/images/navbar/games-palworld.webp",
+      },
+      {
+        title: "ARK",
+        subtitle: "Starting from £1.00/mo",
+        href: "/games/ark-server-hosting",
+        imageSrc: "/assets/images/navbar/games-ark-survival-evolved.webp",
+      },
+      {
+        title: "Rust",
+        subtitle: "Starting from £1.00/mo",
+        href: "/games/rust-server-hosting",
+        imageSrc: "/assets/images/navbar/games-rust.webp",
+      },
+      {
+        title: "Terraria",
+        subtitle: "Starting from £1.00/mo",
+        href: "/games/terraria-server-hosting",
+        imageSrc: "/assets/images/navbar/games-terraria.webp",
+      },
+      {
+        title: "View All Games (20+)",
         subtitle: "Browse our entire collection",
         href: "/games",
         imageSrc: "/assets/images/navbar/games.webp",
       },
     ],
   },
+  { name: "Dedicated", href: "/dedicated-hosting" },
   {
     name: "More",
     subItems: [

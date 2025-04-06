@@ -8,8 +8,9 @@ const Footer = () => {
     {
       category: "Hosting",
       items: [
-        { name: "Minecraft: Java Edition", url: "/games/minecraft-server-hosting" },
+        { name: "Minecraft", url: "/games/minecraft-server-hosting" },
         { name: "All Games", url: "/games" },
+        { name: "Dedicated Hosting", url: "/dedicated-hosting" },
       ],
     },
     {

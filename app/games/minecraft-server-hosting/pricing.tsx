@@ -14,6 +14,7 @@ import {
   faUsers,
   faDatabase,
   faServer,
+  faCircleExclamation,
 } from "@fortawesome/free-solid-svg-icons";
 
 const plans = [
@@ -223,7 +224,7 @@ const Pricing = () => {
             MINECRAFT SERVER HOSTING
           </h1>
           <p className="w-full text-lg md:w-[700px]">
-          Easily host your very own Minecraft server with Lodestone. Enjoy <b>reliable, fully customisable and quick to set up</b> servers, perfect for playing with friends or starting a community! 
+          Easily host your very own Minecraft: Java Edition server with Lodestone. Enjoy <b>reliable, fully customisable and quick to set up</b> servers, perfect for playing with friends or starting a community. 
           </p>
           <br></br>
           <p className="w-full text-lg md:w-[700px]">
@@ -296,6 +297,21 @@ const Pricing = () => {
                 Get in Touch
               </button>
             </Link>
+          </div>
+          <div className="mt-5 flex flex-col items-center justify-between rounded-xl bg-primary p-3 md:flex-row">
+            <div className="mb-4 flex gap-2 md:mb-0">
+              <FontAwesomeIcon
+                size="3x"
+                icon={faCircleExclamation}
+                className="h-12 text-orange-500"
+              />
+              <div className="flex flex-col">
+                <h2 className="font-bold">Minimum RAM Required</h2>
+                <p>
+                  Minecraft: Java Edition requires at least 1GB RAM.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </section>

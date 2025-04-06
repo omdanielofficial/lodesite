@@ -34,6 +34,12 @@
       "namedRegex": "^/about(?:/)?$"
     },
     {
+      "page": "/dedicated-hosting",
+      "regex": "^/dedicated\\-hosting(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dedicated\\-hosting(?:/)?$"
+    },
+    {
       "page": "/favicon.ico",
       "regex": "^/favicon\\.ico(?:/)?$",
       "routeKeys": {},
@@ -46,10 +52,124 @@
       "namedRegex": "^/games(?:/)?$"
     },
     {
+      "page": "/games/7daystodie-server-hosting",
+      "regex": "^/games/7daystodie\\-server\\-hosting(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/games/7daystodie\\-server\\-hosting(?:/)?$"
+    },
+    {
+      "page": "/games/ark-server-hosting",
+      "regex": "^/games/ark\\-server\\-hosting(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/games/ark\\-server\\-hosting(?:/)?$"
+    },
+    {
+      "page": "/games/arma3-server-hosting",
+      "regex": "^/games/arma3\\-server\\-hosting(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/games/arma3\\-server\\-hosting(?:/)?$"
+    },
+    {
+      "page": "/games/counterstrike2-server-hosting",
+      "regex": "^/games/counterstrike2\\-server\\-hosting(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/games/counterstrike2\\-server\\-hosting(?:/)?$"
+    },
+    {
+      "page": "/games/dayz-server-hosting",
+      "regex": "^/games/dayz\\-server\\-hosting(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/games/dayz\\-server\\-hosting(?:/)?$"
+    },
+    {
+      "page": "/games/eco-server-hosting",
+      "regex": "^/games/eco\\-server\\-hosting(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/games/eco\\-server\\-hosting(?:/)?$"
+    },
+    {
+      "page": "/games/enshrouded-server-hosting",
+      "regex": "^/games/enshrouded\\-server\\-hosting(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/games/enshrouded\\-server\\-hosting(?:/)?$"
+    },
+    {
+      "page": "/games/eurotrucksimulator2-server-hosting",
+      "regex": "^/games/eurotrucksimulator2\\-server\\-hosting(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/games/eurotrucksimulator2\\-server\\-hosting(?:/)?$"
+    },
+    {
+      "page": "/games/garrysmod-server-hosting",
+      "regex": "^/games/garrysmod\\-server\\-hosting(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/games/garrysmod\\-server\\-hosting(?:/)?$"
+    },
+    {
       "page": "/games/minecraft-server-hosting",
       "regex": "^/games/minecraft\\-server\\-hosting(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/games/minecraft\\-server\\-hosting(?:/)?$"
+    },
+    {
+      "page": "/games/palworld-server-hosting",
+      "regex": "^/games/palworld\\-server\\-hosting(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/games/palworld\\-server\\-hosting(?:/)?$"
+    },
+    {
+      "page": "/games/projectzomboid-server-hosting",
+      "regex": "^/games/projectzomboid\\-server\\-hosting(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/games/projectzomboid\\-server\\-hosting(?:/)?$"
+    },
+    {
+      "page": "/games/rust-server-hosting",
+      "regex": "^/games/rust\\-server\\-hosting(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/games/rust\\-server\\-hosting(?:/)?$"
+    },
+    {
+      "page": "/games/satisfactory-server-hosting",
+      "regex": "^/games/satisfactory\\-server\\-hosting(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/games/satisfactory\\-server\\-hosting(?:/)?$"
+    },
+    {
+      "page": "/games/squad-server-hosting",
+      "regex": "^/games/squad\\-server\\-hosting(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/games/squad\\-server\\-hosting(?:/)?$"
+    },
+    {
+      "page": "/games/stardewvalley-server-hosting",
+      "regex": "^/games/stardewvalley\\-server\\-hosting(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/games/stardewvalley\\-server\\-hosting(?:/)?$"
+    },
+    {
+      "page": "/games/teamfortress2-server-hosting",
+      "regex": "^/games/teamfortress2\\-server\\-hosting(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/games/teamfortress2\\-server\\-hosting(?:/)?$"
+    },
+    {
+      "page": "/games/terraria-server-hosting",
+      "regex": "^/games/terraria\\-server\\-hosting(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/games/terraria\\-server\\-hosting(?:/)?$"
+    },
+    {
+      "page": "/games/unturned-server-hosting",
+      "regex": "^/games/unturned\\-server\\-hosting(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/games/unturned\\-server\\-hosting(?:/)?$"
+    },
+    {
+      "page": "/games/valheim-server-hosting",
+      "regex": "^/games/valheim\\-server\\-hosting(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/games/valheim\\-server\\-hosting(?:/)?$"
     },
     {
       "page": "/privacy-policy",
