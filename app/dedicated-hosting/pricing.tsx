@@ -17,6 +17,7 @@ import {
   faCircleExclamation,
   faLink,
   faLocationDot,
+  faHandshake,
 } from "@fortawesome/free-solid-svg-icons";
 
 const plans = [
@@ -81,7 +82,6 @@ const features = [
   "NVMe SSDs",
   "Additional IPv4 Addresses",
   "AMD Ryzen CPUs",
-  "Unmanaged Services",
   "Crypto Mining",
 ];
 
@@ -200,6 +200,21 @@ const Pricing = () => {
                 Get in Touch
               </button>
             </Link>
+          </div>
+          <div className="mt-5 flex flex-col items-center justify-between rounded-xl bg-primary p-3 md:flex-row">
+            <div className="mb-4 flex gap-2 md:mb-0">
+              <FontAwesomeIcon
+                size="3x"
+                icon={faHandshake}
+                className="h-12 text-green-500"
+              />
+              <div className="flex flex-col">
+                <h2 className="font-bold">24/7 Managed Servers</h2>
+                <p>
+                Our team will take care of setting up and monitoring the required software on your server, such as the Pterodactyl Panel, included in the price. No need to pay extra. 
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </section>
