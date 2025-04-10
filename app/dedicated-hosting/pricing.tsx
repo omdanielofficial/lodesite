@@ -68,6 +68,7 @@ const features = [
   "Reliable Hardware",
   "High Performance",
   "DDoS Protection",
+  "24/7 Managed Services",
   "NYC Location",
   "Full Root Access",
   "IPv6 Supported",
@@ -165,7 +166,7 @@ const Pricing = () => {
             DEDICATED HOSTING
           </h1>
           <p className="w-full text-lg md:w-[700px]">
-          Bare metal unmanaged servers with the latest <b>AMD Ryzen CPUs and full root access</b> to keep you in control. Choose from Linux-based and Windows operating systems to power your applications with Lodestone.
+          Bare metal managed servers with the latest <b>AMD Ryzen CPUs and full root access</b> to keep you in control. Choose from Linux-based and Windows operating systems to power your applications with Lodestone.
           </p>
 
         </div>
