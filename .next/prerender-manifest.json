@@ -1,12 +1,7 @@
 {
   "version": 4,
   "routes": {
-    "/favicon.ico": {
-      "initialHeaders": {
-        "cache-control": "public, max-age=0, must-revalidate",
-        "content-type": "image/x-icon",
-        "x-next-cache-tags": "_N_T_/layout,_N_T_/favicon.ico/layout,_N_T_/favicon.ico/route,_N_T_/favicon.ico"
-      },
+    "/games/ark-server-hosting": {
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -19,80 +14,8 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/favicon.ico",
-      "dataRoute": null,
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
-    "/dedicated-hosting": {
-      "experimentalBypassFor": [
-        {
-          "type": "header",
-          "key": "Next-Action"
-        },
-        {
-          "type": "header",
-          "key": "content-type",
-          "value": "multipart/form-data;.*"
-        }
-      ],
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/dedicated-hosting",
-      "dataRoute": "/dedicated-hosting.rsc",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
-    "/games/eco-server-hosting": {
-      "experimentalBypassFor": [
-        {
-          "type": "header",
-          "key": "Next-Action"
-        },
-        {
-          "type": "header",
-          "key": "content-type",
-          "value": "multipart/form-data;.*"
-        }
-      ],
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/games/eco-server-hosting",
-      "dataRoute": "/games/eco-server-hosting.rsc",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
-    "/games/7daystodie-server-hosting": {
-      "experimentalBypassFor": [
-        {
-          "type": "header",
-          "key": "Next-Action"
-        },
-        {
-          "type": "header",
-          "key": "content-type",
-          "value": "multipart/form-data;.*"
-        }
-      ],
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/games/7daystodie-server-hosting",
-      "dataRoute": "/games/7daystodie-server-hosting.rsc",
+      "srcRoute": "/games/ark-server-hosting",
+      "dataRoute": "/games/ark-server-hosting.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -126,30 +49,6 @@
         "x-next-revalidate-tag-token"
       ]
     },
-    "/games/eurotrucksimulator2-server-hosting": {
-      "experimentalBypassFor": [
-        {
-          "type": "header",
-          "key": "Next-Action"
-        },
-        {
-          "type": "header",
-          "key": "content-type",
-          "value": "multipart/form-data;.*"
-        }
-      ],
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/games/eurotrucksimulator2-server-hosting",
-      "dataRoute": "/games/eurotrucksimulator2-server-hosting.rsc",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
     "/games/dayz-server-hosting": {
       "experimentalBypassFor": [
         {
@@ -165,6 +64,54 @@
       "initialRevalidateSeconds": false,
       "srcRoute": "/games/dayz-server-hosting",
       "dataRoute": "/games/dayz-server-hosting.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/games/counterstrike2-server-hosting": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "Next-Action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/games/counterstrike2-server-hosting",
+      "dataRoute": "/games/counterstrike2-server-hosting.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/games/eco-server-hosting": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "Next-Action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/games/eco-server-hosting",
+      "dataRoute": "/games/eco-server-hosting.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -222,7 +169,7 @@
         "x-next-revalidate-tag-token"
       ]
     },
-    "/games/palworld-server-hosting": {
+    "/games/7daystodie-server-hosting": {
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -235,8 +182,32 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/games/palworld-server-hosting",
-      "dataRoute": "/games/palworld-server-hosting.rsc",
+      "srcRoute": "/games/7daystodie-server-hosting",
+      "dataRoute": "/games/7daystodie-server-hosting.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/games/minecraft-server-hosting": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "Next-Action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/games/minecraft-server-hosting",
+      "dataRoute": "/games/minecraft-server-hosting.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -270,7 +241,7 @@
         "x-next-revalidate-tag-token"
       ]
     },
-    "/games/minecraft-server-hosting": {
+    "/games/palworld-server-hosting": {
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -283,8 +254,8 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/games/minecraft-server-hosting",
-      "dataRoute": "/games/minecraft-server-hosting.rsc",
+      "srcRoute": "/games/palworld-server-hosting",
+      "dataRoute": "/games/palworld-server-hosting.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -342,7 +313,7 @@
         "x-next-revalidate-tag-token"
       ]
     },
-    "/games/teamfortress2-server-hosting": {
+    "/games/eurotrucksimulator2-server-hosting": {
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -355,56 +326,8 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/games/teamfortress2-server-hosting",
-      "dataRoute": "/games/teamfortress2-server-hosting.rsc",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
-    "/games/stardewvalley-server-hosting": {
-      "experimentalBypassFor": [
-        {
-          "type": "header",
-          "key": "Next-Action"
-        },
-        {
-          "type": "header",
-          "key": "content-type",
-          "value": "multipart/form-data;.*"
-        }
-      ],
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/games/stardewvalley-server-hosting",
-      "dataRoute": "/games/stardewvalley-server-hosting.rsc",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
-    "/games/valheim-server-hosting": {
-      "experimentalBypassFor": [
-        {
-          "type": "header",
-          "key": "Next-Action"
-        },
-        {
-          "type": "header",
-          "key": "content-type",
-          "value": "multipart/form-data;.*"
-        }
-      ],
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/games/valheim-server-hosting",
-      "dataRoute": "/games/valheim-server-hosting.rsc",
+      "srcRoute": "/games/eurotrucksimulator2-server-hosting",
+      "dataRoute": "/games/eurotrucksimulator2-server-hosting.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -438,7 +361,7 @@
         "x-next-revalidate-tag-token"
       ]
     },
-    "/games/counterstrike2-server-hosting": {
+    "/games/stardewvalley-server-hosting": {
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -451,8 +374,8 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/games/counterstrike2-server-hosting",
-      "dataRoute": "/games/counterstrike2-server-hosting.rsc",
+      "srcRoute": "/games/stardewvalley-server-hosting",
+      "dataRoute": "/games/stardewvalley-server-hosting.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -486,7 +409,7 @@
         "x-next-revalidate-tag-token"
       ]
     },
-    "/games/satisfactory-server-hosting": {
+    "/games/teamfortress2-server-hosting": {
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -499,8 +422,8 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/games/satisfactory-server-hosting",
-      "dataRoute": "/games/satisfactory-server-hosting.rsc",
+      "srcRoute": "/games/teamfortress2-server-hosting",
+      "dataRoute": "/games/teamfortress2-server-hosting.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -534,6 +457,30 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/games/valheim-server-hosting": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "Next-Action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/games/valheim-server-hosting",
+      "dataRoute": "/games/valheim-server-hosting.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/privacy-policy": {
       "experimentalBypassFor": [
         {
@@ -549,30 +496,6 @@
       "initialRevalidateSeconds": false,
       "srcRoute": "/privacy-policy",
       "dataRoute": "/privacy-policy.rsc",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
-    "/sitemap": {
-      "experimentalBypassFor": [
-        {
-          "type": "header",
-          "key": "Next-Action"
-        },
-        {
-          "type": "header",
-          "key": "content-type",
-          "value": "multipart/form-data;.*"
-        }
-      ],
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/sitemap",
-      "dataRoute": "/sitemap.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -606,7 +529,7 @@
         "x-next-revalidate-tag-token"
       ]
     },
-    "/games/ark-server-hosting": {
+    "/sitemap": {
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -619,8 +542,61 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/games/ark-server-hosting",
-      "dataRoute": "/games/ark-server-hosting.rsc",
+      "srcRoute": "/sitemap",
+      "dataRoute": "/sitemap.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/games/satisfactory-server-hosting": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "Next-Action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/games/satisfactory-server-hosting",
+      "dataRoute": "/games/satisfactory-server-hosting.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/favicon.ico": {
+      "initialHeaders": {
+        "cache-control": "public, max-age=0, must-revalidate",
+        "content-type": "image/x-icon",
+        "x-next-cache-tags": "_N_T_/layout,_N_T_/favicon.ico/layout,_N_T_/favicon.ico/route,_N_T_/favicon.ico"
+      },
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "Next-Action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/favicon.ico",
+      "dataRoute": null,
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -677,13 +653,37 @@
         "x-next-revalidated-tags",
         "x-next-revalidate-tag-token"
       ]
+    },
+    "/dedicated-hosting": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "Next-Action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/dedicated-hosting",
+      "dataRoute": "/dedicated-hosting.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
     }
   },
   "dynamicRoutes": {},
   "notFoundRoutes": [],
   "preview": {
-    "previewModeId": "b02bf97b5345b98e9e11347e7d30d178",
-    "previewModeSigningKey": "35653511ef50cf69a5434298ac38b8d1f936dd253bb1beff410e929e581f42a2",
-    "previewModeEncryptionKey": "14bfc454dcc15e40e9e3d1fd25c3e803c85847cd00c7d03f41f9e4903d7b515c"
+    "previewModeId": "3e236b92fd303f41614c019ef2336a42",
+    "previewModeSigningKey": "416d4f9f8f62aa64d1a27dc6e07e6d1ad38afe44ce99f9c47b3ed308978847c8",
+    "previewModeEncryptionKey": "f9c0b8807036eeda658d8bda52778ce436410d2cbf6920e013cda905cd407b51"
   }
 }

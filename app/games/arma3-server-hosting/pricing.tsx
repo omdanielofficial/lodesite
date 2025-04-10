@@ -22,8 +22,13 @@ const plans = [
     name: "1GB PLAN",
     memory: "1GB RAM",
     pricebasic: "£1.00",
-    pricepremium: "£2.00",
-    playerSlots: "",
+    pricepremium: "£1.50",
+    storagebasic: "100GB+ Storage",
+    storagepremium: "200GB+ Storage",
+    backupsbasic: "50GB+ Backups",
+    backupspremium: "100GB+ Backups",
+    dbsbasic: "3+ Databases",
+    dbspremium: "5+ Databases",
     image: "/assets/images/games/minecraft-server-hosting/stone.webp",
     linkbasic: "https://billing.lodestone.host/index.php?rp=/store/game-hosting-basic/1gb",
     linkpremium: "",
@@ -33,8 +38,13 @@ const plans = [
     name: "2GB PLAN",
     memory: "2GB RAM",
     pricebasic: "£2.00",
-    pricepremium: "£4.00",
-    playerSlots: "",
+    pricepremium: "£3.00",
+    storagebasic: "100GB+ Storage",
+    storagepremium: "200GB+ Storage",
+    backupsbasic: "50GB+ Backups",
+    backupspremium: "100GB+ Backups",
+    dbsbasic: "3+ Databases",
+    dbspremium: "5+ Databases",
     image: "/assets/images/games/minecraft-server-hosting/coal.webp",
     linkbasic: "https://billing.lodestone.host/index.php?rp=/store/game-hosting-basic/2gb",
     linkpremium: "",
@@ -44,8 +54,13 @@ const plans = [
     name: "4GB PLAN",
     memory: "4GB RAM",
     pricebasic: "£4.00",
-    pricepremium: "£8.00",
-    playerSlots: "",
+    pricepremium: "£6.00",
+    storagebasic: "100GB+ Storage",
+    storagepremium: "200GB+ Storage",
+    backupsbasic: "50GB+ Backups",
+    backupspremium: "100GB+ Backups",
+    dbsbasic: "3+ Databases",
+    dbspremium: "5+ Databases",
     image: "/assets/images/games/minecraft-server-hosting/iron.webp",
     linkbasic: "https://billing.lodestone.host/index.php?rp=/store/game-hosting-basic/4gb",
     linkpremium: "",
@@ -55,8 +70,13 @@ const plans = [
     name: "6GB PLAN",
     memory: "6GB RAM",
     pricebasic: "£6.00",
-    pricepremium: "£18.00",
-    playerSlots: "",
+    pricepremium: "£9.00",
+    storagebasic: "100GB+ Storage",
+    storagepremium: "200GB+ Storage",
+    backupsbasic: "50GB+ Backups",
+    backupspremium: "100GB+ Backups",
+    dbsbasic: "3+ Databases",
+    dbspremium: "5+ Databases",
     image: "/assets/images/games/minecraft-server-hosting/gold.webp",
     linkbasic: "https://billing.lodestone.host/index.php?rp=/store/game-hosting-basic/6gb",
     linkpremium: "",
@@ -66,8 +86,13 @@ const plans = [
     name: "8GB PLAN",
     memory: "8GB RAM",
     pricebasic: "£8.00",
-    pricepremium: "£16.00",
-    playerSlots: "",
+    pricepremium: "£12.00",
+    storagebasic: "100GB+ Storage",
+    storagepremium: "200GB+ Storage",
+    backupsbasic: "50GB+ Backups",
+    backupspremium: "100GB+ Backups",
+    dbsbasic: "3+ Databases",
+    dbspremium: "5+ Databases",
     image: "/assets/images/games/minecraft-server-hosting/lapis.webp",
     linkbasic: "https://billing.lodestone.host/index.php?rp=/store/game-hosting-basic/8gb",
     linkpremium: "",
@@ -77,8 +102,13 @@ const plans = [
     name: "10GB PLAN",
     memory: "10GB RAM",
     pricebasic: "£10.00",
-    pricepremium: "£20.00",
-    playerSlots: "",
+    pricepremium: "£15.00",
+    storagebasic: "100GB+ Storage",
+    storagepremium: "200GB+ Storage",
+    backupsbasic: "50GB+ Backups",
+    backupspremium: "100GB+ Backups",
+    dbsbasic: "3+ Databases",
+    dbspremium: "5+ Databases",
     image: "/assets/images/games/minecraft-server-hosting/redstone.webp",
     linkbasic: "https://billing.lodestone.host/index.php?rp=/store/game-hosting-basic/10gb",
     linkpremium: "",
@@ -88,8 +118,13 @@ const plans = [
     name: "12GB PLAN",
     memory: "12GB RAM",
     pricebasic: "£12.00",
-    pricepremium: "£24.00",
-    playerSlots: "",
+    pricepremium: "£18.00",
+    storagebasic: "100GB+ Storage",
+    storagepremium: "200GB+ Storage",
+    backupsbasic: "50GB+ Backups",
+    backupspremium: "100GB+ Backups",
+    dbsbasic: "3+ Databases",
+    dbspremium: "5+ Databases",
     image: "/assets/images/games/minecraft-server-hosting/diamond.webp",
     linkbasic: "https://billing.lodestone.host/index.php?rp=/store/game-hosting-basic/12gb",
     linkpremium: "",
@@ -99,8 +134,13 @@ const plans = [
     name: "16GB PLAN",
     memory: "16GB RAM",
     pricebasic: "£16.00",
-    pricepremium: "£32.00",
-    playerSlots: "",
+    pricepremium: "£24.00",
+    storagebasic: "100GB+ Storage",
+    storagepremium: "200GB+ Storage",
+    backupsbasic: "50GB+ Backups",
+    backupspremium: "100GB+ Backups",
+    dbsbasic: "3+ Databases",
+    dbspremium: "5+ Databases",
     image: "/assets/images/games/minecraft-server-hosting/emerald.webp",
     linkbasic: "https://billing.lodestone.host/index.php?rp=/store/game-hosting-basic/16gb",
     linkpremium: "",
@@ -110,8 +150,13 @@ const plans = [
     name: "24GB PLAN",
     memory: "24GB RAM",
     pricebasic: "£24.00",
-    pricepremium: "£48.00",
-    playerSlots: "",
+    pricepremium: "£36.00",
+    storagebasic: "100GB+ Storage",
+    storagepremium: "200GB+ Storage",
+    backupsbasic: "50GB+ Backups",
+    backupspremium: "100GB+ Backups",
+    dbsbasic: "3+ Databases",
+    dbspremium: "5+ Databases",
     image: "/assets/images/games/minecraft-server-hosting/amethyst.webp",
     linkbasic: "https://billing.lodestone.host/index.php?rp=/store/game-hosting-basic/24gb",
     linkpremium: "",
@@ -121,8 +166,13 @@ const plans = [
     name: "32GB PLAN",
     memory: "32GB RAM",
     pricebasic: "£32.00",
-    pricepremium: "£64.00",
-    playerSlots: "",
+    pricepremium: "£48.00",
+    storagebasic: "100GB+ Storage",
+    storagepremium: "200GB+ Storage",
+    backupsbasic: "50GB+ Backups",
+    backupspremium: "100GB+ Backups",
+    dbsbasic: "3+ Databases",
+    dbspremium: "5+ Databases",
     image: "/assets/images/games/minecraft-server-hosting/beacon.webp",
     linkbasic: "https://billing.lodestone.host/index.php?rp=/store/game-hosting-basic/32gb",
     linkpremium: "",
@@ -164,21 +214,21 @@ const PlanCard = ({ plan, isPremium }: { plan: any; isPremium: boolean }) => (
       <Image src={plan.image} alt={`${plan.name} Plan`} width={75} height={0} />
     </div>
     <ul className="mt-6">
-      <li className="flex items-center gap-2">
+    <li className="flex items-center gap-2">
         <FontAwesomeIcon icon={faHardDrive} className="w-5" />
-        100GB+ Storage
+        {isPremium ? plan.storagepremium : plan.storagebasic}
       </li>
       <li className="flex items-center gap-2">
         <FontAwesomeIcon icon={faServer} className="w-5" />
-        50GB+ Backups
+        {isPremium ? plan.backupspremium : plan.backupsbasic}
       </li>
       <li className="flex items-center gap-2">
         <FontAwesomeIcon icon={faDatabase} className="w-5" />
-        3+ Databases
+        {isPremium ? plan.dbspremium : plan.dbsbasic}
       </li>
       <li className="flex items-center gap-2">
         <FontAwesomeIcon icon={faUsers} className="w-5" />
-        Unlimited Players
+        Unlimited Slots
       </li>
       <li className="flex items-center gap-2">
         <FontAwesomeIcon icon={faWifi} className="w-5" />
@@ -256,17 +306,17 @@ const Pricing = () => {
             <div className="flex flex-col items-center gap-4 text-center md:flex-row">
               <div className="mb-2 flex items-center gap-1 md:mb-0">
                 <FontAwesomeIcon icon={faMicrochip} className="w-5" />{" "}
-                {isPremium ? "AMD Ryzen 9 7950X" : "Intel Core i9-9900K"}
+                {isPremium ? "AMD Ryzen 9 5950X" : "Intel Core i9-9900K"}
               </div>
               <div className="mb-2 flex items-center gap-1 md:mb-0">
                 <FontAwesomeIcon icon={faMemory} className="w-5" />{" "}
-                {isPremium ? "DDR5 RAM" : "DDR4 RAM"}
+                {isPremium ? "DDR4 RAM" : "DDR4 RAM"}
               </div>
               <div className="flex items-center gap-1">
                 <FontAwesomeIcon icon={faHardDrive} className="w-5" />{" "}
                 {isPremium
-                  ? "NVMe SSDs"
-                  : "NVMe SSDs"}
+                  ? "NVMe Storage"
+                  : "NVMe Storage"}
               </div>
             </div>
           </div>
