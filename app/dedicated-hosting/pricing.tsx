@@ -211,7 +211,7 @@ const Pricing = () => {
               <div className="flex flex-col">
                 <h2 className="font-bold">24/7 Managed Servers</h2>
                 <p>
-                Our team will take care of setting up and monitoring the required software on your server, such as the Pterodactyl Panel, included in the price. No need to pay extra. 
+                Our team will take care of setting up and monitoring the required software on your server, included in the price. 
                 </p>
               </div>
             </div>
