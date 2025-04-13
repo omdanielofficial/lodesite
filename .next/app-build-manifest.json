@@ -30,16 +30,6 @@
       "static/chunks/787-4cf1a613858f59c4.js",
       "static/chunks/app/page-cec3292dd71d7ab6.js"
     ],
-    "/games/7daystodie-server-hosting/page": [
-      "static/chunks/webpack-08240b2d702a40db.js",
-      "static/chunks/4bd1b696-5b2b1e7b5478d01a.js",
-      "static/chunks/684-d14ea7d978a5ee01.js",
-      "static/chunks/main-app-cd58424a6e1e8c6f.js",
-      "static/chunks/870fdd6f-2bbec43c07c48ca8.js",
-      "static/chunks/63-ce6c719f0fa4b151.js",
-      "static/chunks/787-4cf1a613858f59c4.js",
-      "static/chunks/app/games/7daystodie-server-hosting/page-1071232cfd0ba9dd.js"
-    ],
     "/games/ark-server-hosting/page": [
       "static/chunks/webpack-08240b2d702a40db.js",
       "static/chunks/4bd1b696-5b2b1e7b5478d01a.js",
@@ -60,7 +50,7 @@
       "static/chunks/787-4cf1a613858f59c4.js",
       "static/chunks/app/dedicated-hosting/page-8cefbf3bf31d2fef.js"
     ],
-    "/games/eco-server-hosting/page": [
+    "/games/7daystodie-server-hosting/page": [
       "static/chunks/webpack-08240b2d702a40db.js",
       "static/chunks/4bd1b696-5b2b1e7b5478d01a.js",
       "static/chunks/684-d14ea7d978a5ee01.js",
@@ -68,7 +58,15 @@
       "static/chunks/870fdd6f-2bbec43c07c48ca8.js",
       "static/chunks/63-ce6c719f0fa4b151.js",
       "static/chunks/787-4cf1a613858f59c4.js",
-      "static/chunks/app/games/eco-server-hosting/page-1d0a773ebdd679a7.js"
+      "static/chunks/app/games/7daystodie-server-hosting/page-1071232cfd0ba9dd.js"
+    ],
+    "/about/page": [
+      "static/chunks/webpack-08240b2d702a40db.js",
+      "static/chunks/4bd1b696-5b2b1e7b5478d01a.js",
+      "static/chunks/684-d14ea7d978a5ee01.js",
+      "static/chunks/main-app-cd58424a6e1e8c6f.js",
+      "static/chunks/63-ce6c719f0fa4b151.js",
+      "static/chunks/app/about/page-efa526c1bd201e6f.js"
     ],
     "/games/arma3-server-hosting/page": [
       "static/chunks/webpack-08240b2d702a40db.js",
@@ -80,6 +78,16 @@
       "static/chunks/787-4cf1a613858f59c4.js",
       "static/chunks/app/games/arma3-server-hosting/page-bbf345bc30910d00.js"
     ],
+    "/games/counterstrike2-server-hosting/page": [
+      "static/chunks/webpack-08240b2d702a40db.js",
+      "static/chunks/4bd1b696-5b2b1e7b5478d01a.js",
+      "static/chunks/684-d14ea7d978a5ee01.js",
+      "static/chunks/main-app-cd58424a6e1e8c6f.js",
+      "static/chunks/870fdd6f-2bbec43c07c48ca8.js",
+      "static/chunks/63-ce6c719f0fa4b151.js",
+      "static/chunks/787-4cf1a613858f59c4.js",
+      "static/chunks/app/games/counterstrike2-server-hosting/page-892f2e816ea9ff95.js"
+    ],
     "/games/dayz-server-hosting/page": [
       "static/chunks/webpack-08240b2d702a40db.js",
       "static/chunks/4bd1b696-5b2b1e7b5478d01a.js",
@@ -90,7 +98,7 @@
       "static/chunks/787-4cf1a613858f59c4.js",
       "static/chunks/app/games/dayz-server-hosting/page-cf734fa82a72750e.js"
     ],
-    "/games/counterstrike2-server-hosting/page": [
+    "/games/eco-server-hosting/page": [
       "static/chunks/webpack-08240b2d702a40db.js",
       "static/chunks/4bd1b696-5b2b1e7b5478d01a.js",
       "static/chunks/684-d14ea7d978a5ee01.js",
@@ -98,7 +106,7 @@
       "static/chunks/870fdd6f-2bbec43c07c48ca8.js",
       "static/chunks/63-ce6c719f0fa4b151.js",
       "static/chunks/787-4cf1a613858f59c4.js",
-      "static/chunks/app/games/counterstrike2-server-hosting/page-892f2e816ea9ff95.js"
+      "static/chunks/app/games/eco-server-hosting/page-1d0a773ebdd679a7.js"
     ],
     "/games/enshrouded-server-hosting/page": [
       "static/chunks/webpack-08240b2d702a40db.js",
@@ -110,13 +118,15 @@
       "static/chunks/787-4cf1a613858f59c4.js",
       "static/chunks/app/games/enshrouded-server-hosting/page-a6de739e89384537.js"
     ],
-    "/about/page": [
+    "/games/garrysmod-server-hosting/page": [
       "static/chunks/webpack-08240b2d702a40db.js",
       "static/chunks/4bd1b696-5b2b1e7b5478d01a.js",
       "static/chunks/684-d14ea7d978a5ee01.js",
       "static/chunks/main-app-cd58424a6e1e8c6f.js",
+      "static/chunks/870fdd6f-2bbec43c07c48ca8.js",
       "static/chunks/63-ce6c719f0fa4b151.js",
-      "static/chunks/app/about/page-efa526c1bd201e6f.js"
+      "static/chunks/787-4cf1a613858f59c4.js",
+      "static/chunks/app/games/garrysmod-server-hosting/page-0fc2c9037e38c58e.js"
     ],
     "/games/eurotrucksimulator2-server-hosting/page": [
       "static/chunks/webpack-08240b2d702a40db.js",
@@ -128,26 +138,6 @@
       "static/chunks/787-4cf1a613858f59c4.js",
       "static/chunks/app/games/eurotrucksimulator2-server-hosting/page-7cc84ce00e5b5f3a.js"
     ],
-    "/games/minecraft-server-hosting/page": [
-      "static/chunks/webpack-08240b2d702a40db.js",
-      "static/chunks/4bd1b696-5b2b1e7b5478d01a.js",
-      "static/chunks/684-d14ea7d978a5ee01.js",
-      "static/chunks/main-app-cd58424a6e1e8c6f.js",
-      "static/chunks/870fdd6f-2bbec43c07c48ca8.js",
-      "static/chunks/63-ce6c719f0fa4b151.js",
-      "static/chunks/787-4cf1a613858f59c4.js",
-      "static/chunks/app/games/minecraft-server-hosting/page-d7ad27127ef2e2ab.js"
-    ],
-    "/games/garrysmod-server-hosting/page": [
-      "static/chunks/webpack-08240b2d702a40db.js",
-      "static/chunks/4bd1b696-5b2b1e7b5478d01a.js",
-      "static/chunks/684-d14ea7d978a5ee01.js",
-      "static/chunks/main-app-cd58424a6e1e8c6f.js",
-      "static/chunks/870fdd6f-2bbec43c07c48ca8.js",
-      "static/chunks/63-ce6c719f0fa4b151.js",
-      "static/chunks/787-4cf1a613858f59c4.js",
-      "static/chunks/app/games/garrysmod-server-hosting/page-0fc2c9037e38c58e.js"
-    ],
     "/games/projectzomboid-server-hosting/page": [
       "static/chunks/webpack-08240b2d702a40db.js",
       "static/chunks/4bd1b696-5b2b1e7b5478d01a.js",
@@ -157,36 +147,6 @@
       "static/chunks/63-ce6c719f0fa4b151.js",
       "static/chunks/787-4cf1a613858f59c4.js",
       "static/chunks/app/games/projectzomboid-server-hosting/page-c3b70883841e81c0.js"
-    ],
-    "/games/page": [
-      "static/chunks/webpack-08240b2d702a40db.js",
-      "static/chunks/4bd1b696-5b2b1e7b5478d01a.js",
-      "static/chunks/684-d14ea7d978a5ee01.js",
-      "static/chunks/main-app-cd58424a6e1e8c6f.js",
-      "static/chunks/870fdd6f-2bbec43c07c48ca8.js",
-      "static/chunks/63-ce6c719f0fa4b151.js",
-      "static/chunks/787-4cf1a613858f59c4.js",
-      "static/chunks/app/games/page-6779526b7edf27f5.js"
-    ],
-    "/games/rust-server-hosting/page": [
-      "static/chunks/webpack-08240b2d702a40db.js",
-      "static/chunks/4bd1b696-5b2b1e7b5478d01a.js",
-      "static/chunks/684-d14ea7d978a5ee01.js",
-      "static/chunks/main-app-cd58424a6e1e8c6f.js",
-      "static/chunks/870fdd6f-2bbec43c07c48ca8.js",
-      "static/chunks/63-ce6c719f0fa4b151.js",
-      "static/chunks/787-4cf1a613858f59c4.js",
-      "static/chunks/app/games/rust-server-hosting/page-07d7b71ee2c578a2.js"
-    ],
-    "/games/palworld-server-hosting/page": [
-      "static/chunks/webpack-08240b2d702a40db.js",
-      "static/chunks/4bd1b696-5b2b1e7b5478d01a.js",
-      "static/chunks/684-d14ea7d978a5ee01.js",
-      "static/chunks/main-app-cd58424a6e1e8c6f.js",
-      "static/chunks/870fdd6f-2bbec43c07c48ca8.js",
-      "static/chunks/63-ce6c719f0fa4b151.js",
-      "static/chunks/787-4cf1a613858f59c4.js",
-      "static/chunks/app/games/palworld-server-hosting/page-3a3f8decf8b233ee.js"
     ],
     "/games/satisfactory-server-hosting/page": [
       "static/chunks/webpack-08240b2d702a40db.js",
@@ -198,7 +158,7 @@
       "static/chunks/787-4cf1a613858f59c4.js",
       "static/chunks/app/games/satisfactory-server-hosting/page-aa8353e9f6f16775.js"
     ],
-    "/games/squad-server-hosting/page": [
+    "/games/rust-server-hosting/page": [
       "static/chunks/webpack-08240b2d702a40db.js",
       "static/chunks/4bd1b696-5b2b1e7b5478d01a.js",
       "static/chunks/684-d14ea7d978a5ee01.js",
@@ -206,7 +166,7 @@
       "static/chunks/870fdd6f-2bbec43c07c48ca8.js",
       "static/chunks/63-ce6c719f0fa4b151.js",
       "static/chunks/787-4cf1a613858f59c4.js",
-      "static/chunks/app/games/squad-server-hosting/page-07109f9e60c8787d.js"
+      "static/chunks/app/games/rust-server-hosting/page-07d7b71ee2c578a2.js"
     ],
     "/games/stardewvalley-server-hosting/page": [
       "static/chunks/webpack-08240b2d702a40db.js",
@@ -218,6 +178,26 @@
       "static/chunks/787-4cf1a613858f59c4.js",
       "static/chunks/app/games/stardewvalley-server-hosting/page-1e92c1f73095e859.js"
     ],
+    "/games/page": [
+      "static/chunks/webpack-08240b2d702a40db.js",
+      "static/chunks/4bd1b696-5b2b1e7b5478d01a.js",
+      "static/chunks/684-d14ea7d978a5ee01.js",
+      "static/chunks/main-app-cd58424a6e1e8c6f.js",
+      "static/chunks/870fdd6f-2bbec43c07c48ca8.js",
+      "static/chunks/63-ce6c719f0fa4b151.js",
+      "static/chunks/787-4cf1a613858f59c4.js",
+      "static/chunks/app/games/page-6779526b7edf27f5.js"
+    ],
+    "/games/squad-server-hosting/page": [
+      "static/chunks/webpack-08240b2d702a40db.js",
+      "static/chunks/4bd1b696-5b2b1e7b5478d01a.js",
+      "static/chunks/684-d14ea7d978a5ee01.js",
+      "static/chunks/main-app-cd58424a6e1e8c6f.js",
+      "static/chunks/870fdd6f-2bbec43c07c48ca8.js",
+      "static/chunks/63-ce6c719f0fa4b151.js",
+      "static/chunks/787-4cf1a613858f59c4.js",
+      "static/chunks/app/games/squad-server-hosting/page-07109f9e60c8787d.js"
+    ],
     "/games/teamfortress2-server-hosting/page": [
       "static/chunks/webpack-08240b2d702a40db.js",
       "static/chunks/4bd1b696-5b2b1e7b5478d01a.js",
@@ -227,26 +207,6 @@
       "static/chunks/63-ce6c719f0fa4b151.js",
       "static/chunks/787-4cf1a613858f59c4.js",
       "static/chunks/app/games/teamfortress2-server-hosting/page-b224fcbde2e983bd.js"
-    ],
-    "/games/terraria-server-hosting/page": [
-      "static/chunks/webpack-08240b2d702a40db.js",
-      "static/chunks/4bd1b696-5b2b1e7b5478d01a.js",
-      "static/chunks/684-d14ea7d978a5ee01.js",
-      "static/chunks/main-app-cd58424a6e1e8c6f.js",
-      "static/chunks/870fdd6f-2bbec43c07c48ca8.js",
-      "static/chunks/63-ce6c719f0fa4b151.js",
-      "static/chunks/787-4cf1a613858f59c4.js",
-      "static/chunks/app/games/terraria-server-hosting/page-da991929c9ad4872.js"
-    ],
-    "/games/unturned-server-hosting/page": [
-      "static/chunks/webpack-08240b2d702a40db.js",
-      "static/chunks/4bd1b696-5b2b1e7b5478d01a.js",
-      "static/chunks/684-d14ea7d978a5ee01.js",
-      "static/chunks/main-app-cd58424a6e1e8c6f.js",
-      "static/chunks/870fdd6f-2bbec43c07c48ca8.js",
-      "static/chunks/63-ce6c719f0fa4b151.js",
-      "static/chunks/787-4cf1a613858f59c4.js",
-      "static/chunks/app/games/unturned-server-hosting/page-44d4e05db7d75276.js"
     ],
     "/games/valheim-server-hosting/page": [
       "static/chunks/webpack-08240b2d702a40db.js",
@@ -258,12 +218,52 @@
       "static/chunks/787-4cf1a613858f59c4.js",
       "static/chunks/app/games/valheim-server-hosting/page-5735c325522444f1.js"
     ],
+    "/games/terraria-server-hosting/page": [
+      "static/chunks/webpack-08240b2d702a40db.js",
+      "static/chunks/4bd1b696-5b2b1e7b5478d01a.js",
+      "static/chunks/684-d14ea7d978a5ee01.js",
+      "static/chunks/main-app-cd58424a6e1e8c6f.js",
+      "static/chunks/870fdd6f-2bbec43c07c48ca8.js",
+      "static/chunks/63-ce6c719f0fa4b151.js",
+      "static/chunks/787-4cf1a613858f59c4.js",
+      "static/chunks/app/games/terraria-server-hosting/page-da991929c9ad4872.js"
+    ],
+    "/games/minecraft-server-hosting/page": [
+      "static/chunks/webpack-08240b2d702a40db.js",
+      "static/chunks/4bd1b696-5b2b1e7b5478d01a.js",
+      "static/chunks/684-d14ea7d978a5ee01.js",
+      "static/chunks/main-app-cd58424a6e1e8c6f.js",
+      "static/chunks/870fdd6f-2bbec43c07c48ca8.js",
+      "static/chunks/63-ce6c719f0fa4b151.js",
+      "static/chunks/787-4cf1a613858f59c4.js",
+      "static/chunks/app/games/minecraft-server-hosting/page-d7ad27127ef2e2ab.js"
+    ],
+    "/games/palworld-server-hosting/page": [
+      "static/chunks/webpack-08240b2d702a40db.js",
+      "static/chunks/4bd1b696-5b2b1e7b5478d01a.js",
+      "static/chunks/684-d14ea7d978a5ee01.js",
+      "static/chunks/main-app-cd58424a6e1e8c6f.js",
+      "static/chunks/870fdd6f-2bbec43c07c48ca8.js",
+      "static/chunks/63-ce6c719f0fa4b151.js",
+      "static/chunks/787-4cf1a613858f59c4.js",
+      "static/chunks/app/games/palworld-server-hosting/page-3a3f8decf8b233ee.js"
+    ],
     "/sitemap/page": [
       "static/chunks/webpack-08240b2d702a40db.js",
       "static/chunks/4bd1b696-5b2b1e7b5478d01a.js",
       "static/chunks/684-d14ea7d978a5ee01.js",
       "static/chunks/main-app-cd58424a6e1e8c6f.js",
       "static/chunks/app/sitemap/page-5787ec1ac7ddd351.js"
+    ],
+    "/games/unturned-server-hosting/page": [
+      "static/chunks/webpack-08240b2d702a40db.js",
+      "static/chunks/4bd1b696-5b2b1e7b5478d01a.js",
+      "static/chunks/684-d14ea7d978a5ee01.js",
+      "static/chunks/main-app-cd58424a6e1e8c6f.js",
+      "static/chunks/870fdd6f-2bbec43c07c48ca8.js",
+      "static/chunks/63-ce6c719f0fa4b151.js",
+      "static/chunks/787-4cf1a613858f59c4.js",
+      "static/chunks/app/games/unturned-server-hosting/page-44d4e05db7d75276.js"
     ],
     "/terms-of-service/page": [
       "static/chunks/webpack-08240b2d702a40db.js",

@@ -87,7 +87,7 @@ const Footer = () => {
             </p>
 
             <p className="mt-2 text-center text-sm md:text-left lg:text-center">
-              &copy; {new Date().getFullYear()} Lodestone Technologies LTD
+              &copy; {new Date().getFullYear()} Lodestone Technologies Ltd
             </p>
             <p className="mt-2 text-center text-sm md:text-left lg:text-center">
             Registered in England & Wales under CRN 16068461
