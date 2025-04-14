@@ -6,10 +6,9 @@ import { faBullhorn } from "@fortawesome/free-solid-svg-icons";
 const Footer = () => {
   const sections = [
     {
-      category: "Hosting",
+      category: "Services",
       items: [
-        { name: "Minecraft", url: "/games/minecraft-server-hosting" },
-        { name: "All Games", url: "/games" },
+        { name: "Minecraft Hosting", url: "/minecraft-hosting" },
         { name: "Dedicated Hosting", url: "/dedicated-hosting" },
       ],
     },

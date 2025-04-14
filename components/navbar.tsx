@@ -6,7 +6,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faBook,
   faCircleInfo,
-  faGamepad,
   faHandshake,
   faLock,
   faPhone,
@@ -16,49 +15,7 @@ import {
 
 const menuItems = [
   { name: "Home", href: "/" },
-  { name: "Minecraft", href: "/games/minecraft-server-hosting" },
-  {
-    name: "Games",
-    href: "/games",
-    subItems: [
-      {
-        title: "Minecraft",
-        subtitle: "Starting from £1.00/mo",
-        href: "/games/minecraft-server-hosting",
-        imageSrc: "/assets/images/navbar/games-minecraft.webp",
-      },
-      {
-        title: "Palworld",
-        subtitle: "Starting from £1.00/mo",
-        href: "/games/palworld-server-hosting",
-        imageSrc: "/assets/images/navbar/games-palworld.webp",
-      },
-      {
-        title: "ARK",
-        subtitle: "Starting from £1.00/mo",
-        href: "/games/ark-server-hosting",
-        imageSrc: "/assets/images/navbar/games-ark-survival-evolved.webp",
-      },
-      {
-        title: "Rust",
-        subtitle: "Starting from £1.00/mo",
-        href: "/games/rust-server-hosting",
-        imageSrc: "/assets/images/navbar/games-rust.webp",
-      },
-      {
-        title: "Terraria",
-        subtitle: "Starting from £1.00/mo",
-        href: "/games/terraria-server-hosting",
-        imageSrc: "/assets/images/navbar/games-terraria.webp",
-      },
-      {
-        title: "View All Games (20+)",
-        subtitle: "Browse our entire collection",
-        href: "/games",
-        imageSrc: "/assets/images/navbar/games.webp",
-      },
-    ],
-  },
+  { name: "Minecraft", href: "/minecraft-hosting" },
   { name: "Dedicated", href: "/dedicated-hosting" },
   {
     name: "More",
@@ -84,7 +41,6 @@ const menuItems = [
 
 const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-  const [isGamesSubmenuOpen, setIsGamesSubmenuOpen] = useState(false);
   const [isMoreSubmenuOpen, setIsMoreSubmenuOpen] = useState(false);
 
   const toggleMobileMenu = () => {
@@ -93,9 +49,7 @@ const Navbar = () => {
 
   const toggleSubmenuMobile = (submenu: string) => {
     if (window.innerWidth < 640) {
-      if (submenu === "games") {
-        setIsGamesSubmenuOpen(!isGamesSubmenuOpen);
-      } else if (submenu === "more") {
+      if (submenu === "more") {
         setIsMoreSubmenuOpen(!isMoreSubmenuOpen);
       }
     }
@@ -120,11 +74,7 @@ const Navbar = () => {
               item.subItems ? (
                 <div key={item.name} className="group relative">
                   <button
-                    onClick={() =>
-                      toggleSubmenuMobile(
-                        item.name === "Games" ? "games" : "more",
-                      )
-                    }
+                    onClick={() => toggleSubmenuMobile("more")}
                     className="flex items-center rounded-md px-3 py-2 text-sm hover:bg-secondary hover:text-white focus:outline-none"
                   >
                     {item.name}
@@ -145,54 +95,22 @@ const Navbar = () => {
                   </button>
                   <div
                     className={`pointer-events-none absolute left-0 z-10 rounded-md border border-primary bg-secondary opacity-0 shadow-md transition-opacity group-hover:pointer-events-auto group-hover:opacity-100 ${
-                      item.name === "Games" && isGamesSubmenuOpen
+                      item.name === "More" && isMoreSubmenuOpen
                         ? "pointer-events-auto opacity-100"
-                        : item.name === "More" && isMoreSubmenuOpen
-                          ? "pointer-events-auto opacity-100"
-                          : "sm:pointer-events-none sm:opacity-0"
+                        : "sm:pointer-events-none sm:opacity-0"
                     }`}
                   >
-                    <div
-                      className={`grid p-4 ${
-                        item.name === "Games"
-                          ? "w-[50rem] grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3"
-                          : "w-48 grid-cols-1"
-                      }`}
-                    >
-                      {item.subItems.map((subItem) =>
-                        "subtitle" in subItem ? (
-                          <Link
-                            key={subItem.title}
-                            href={subItem.href || "/"}
-                            className="flex items-center space-x-3 rounded-md px-2 py-2 hover:bg-primary hover:text-white"
-                          >
-                            <Image
-                              src={subItem.imageSrc}
-                              alt={subItem.title}
-                              width={32}
-                              height={32}
-                              className="flex-shrink-0 rounded-md"
-                            />
-                            <div>
-                              <div className="text-sm">{subItem.title}</div>
-                              <div className="text-xs font-normal text-gray-400">
-                                {subItem.subtitle}
-                              </div>
-                            </div>
-                          </Link>
-                        ) : (
-                          <Link
-                            key={subItem.title}
-                            href={subItem.href || "/"}
-                            className="flex items-center space-x-3 rounded-md px-2 py-2 hover:bg-primary hover:text-white"
-                          >
-                            {subItem.icon}
-                            <div className="text-sm font-normal">
-                              {subItem.title}
-                            </div>
-                          </Link>
-                        ),
-                      )}
+                    <div className={`grid p-4 w-48 grid-cols-1`}>
+                      {item.subItems.map((subItem) => (
+                        <Link
+                          key={subItem.title}
+                          href={subItem.href || "/"}
+                          className="flex items-center space-x-3 rounded-md px-2 py-2 hover:bg-primary hover:text-white"
+                        >
+                          {subItem.icon && subItem.icon}
+                          <div className="text-sm">{subItem.title}</div>
+                        </Link>
+                      ))}
                     </div>
                   </div>
                 </div>
@@ -251,21 +169,13 @@ const Navbar = () => {
               item.subItems ? (
                 <div key={item.name} className="relative">
                   <button
-                    onClick={() =>
-                      toggleSubmenuMobile(
-                        item.name === "Games" ? "games" : "more",
-                      )
-                    }
+                    onClick={() => toggleSubmenuMobile("more")}
                     className="flex w-full items-center rounded-md px-3 py-2 text-left hover:bg-secondary hover:text-white"
                   >
                     {item.name}
                     <svg
                       className={`ml-2 h-5 w-5 transform transition-transform duration-200 ${
-                        item.name === "Games" && isGamesSubmenuOpen
-                          ? "rotate-180"
-                          : item.name === "More" && isMoreSubmenuOpen
-                            ? "rotate-180"
-                            : ""
+                        item.name === "More" && isMoreSubmenuOpen ? "rotate-180" : ""
                       }`}
                       xmlns="http://www.w3.org/2000/svg"
                       fill="none"
@@ -280,47 +190,18 @@ const Navbar = () => {
                       />
                     </svg>
                   </button>
-                  {(item.name === "Games" && isGamesSubmenuOpen) ||
-                  (item.name === "More" && isMoreSubmenuOpen) ? (
-                    <div
-                      className={`grid gap-4 p-4 ${
-                        item.name === "Games"
-                          ? "grid-cols-1 sm:grid-cols-2 lg:grid-cols-3"
-                          : "grid-cols-1"
-                      }`}
-                    >
-                      {item.subItems.map((subItem) =>
-                        "subtitle" in subItem ? (
-                          <Link
-                            key={subItem.title}
-                            href={subItem.href || "/"}
-                            className="flex items-center space-x-3 rounded-md px-2 py-2 hover:bg-secondary hover:text-white"
-                          >
-                            <Image
-                              src={subItem.imageSrc}
-                              alt={subItem.title}
-                              width={32}
-                              height={32}
-                              className="flex-shrink-0"
-                            />
-                            <div>
-                              <div className="text-sm">{subItem.title}</div>
-                              <div className="text-xs text-gray-400">
-                                {subItem.subtitle}
-                              </div>
-                            </div>
-                          </Link>
-                        ) : (
-                          <Link
-                            key={subItem.title}
-                            href={subItem.href || "/"}
-                            className="flex items-center space-x-3 rounded-md px-2 py-2 hover:bg-secondary hover:text-white"
-                          >
-                            {subItem.icon}
-                            <div className="text-sm">{subItem.title}</div>
-                          </Link>
-                        ),
-                      )}
+                  {item.name === "More" && isMoreSubmenuOpen ? (
+                    <div className={`grid gap-4 p-4 grid-cols-1`}>
+                      {item.subItems.map((subItem) => (
+                        <Link
+                          key={subItem.title}
+                          href={subItem.href || "/"}
+                          className="flex items-center space-x-3 rounded-md px-2 py-2 hover:bg-secondary hover:text-white"
+                        >
+                          {subItem.icon && subItem.icon}
+                          <div className="text-sm">{subItem.title}</div>
+                        </Link>
+                      ))}
                     </div>
                   ) : null}
                 </div>
@@ -335,10 +216,10 @@ const Navbar = () => {
               ),
             )}
             <Link
-              href="/"
+              href="https://billing.lodestone.host"
               className="block rounded-md bg-secondary px-3 py-2 text-center text-white hover:opacity-80"
             >
-              Client Area
+              Client Portal
             </Link>
           </div>
         </div>

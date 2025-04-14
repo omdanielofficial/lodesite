@@ -211,7 +211,7 @@ const Pricing = () => {
               <div className="flex flex-col">
                 <h2 className="font-bold">24/7 Managed Servers</h2>
                 <p>
-                Our team will take care of setting up and monitoring the required software on your server, included in the price. 
+                Our team will take care of software installs, security monitoring, and more.
                 </p>
               </div>
             </div>

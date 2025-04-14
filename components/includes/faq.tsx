@@ -33,10 +33,6 @@ const FAQs = () => {
       question: "💳 Which payment methods are accepted?",
       answer: `We support payments through PayPal or credit/debit cards (Stripe), with the option to choose either recurring or manual billing cycles. At Lodestone, we make the billing process simple so that you can focus on managing your services.`,
     },
-    {
-      question: "📦 How much RAM do I need?",
-      answer: `The amount of RAM (memory) that you'll need depends on the game you're running, the number of players, and more. We have a Knowledgebase article outlining the minimum RAM recommendations for our games.`,
-    },
   ];
 
   return (
