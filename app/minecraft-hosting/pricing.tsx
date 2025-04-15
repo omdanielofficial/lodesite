@@ -23,160 +23,100 @@ const plans = [
     name: "STONE",
     memory: "1GB RAM",
     pricebasic: "£1.00",
-    pricepremium: "£1.50",
-    storagebasic: "100GB+ Storage",
-    storagepremium: "200GB+ Storage",
-    backupsbasic: "50GB+ Backups",
-    backupspremium: "100GB+ Backups",
-    dbsbasic: "3+ Databases",
-    dbspremium: "5+ Databases",
+    pricepremium: "£1.00",
     image: "/assets/images/minecraft-hosting/stone.webp",
-    linkbasic: "https://billing.lodestone.host/index.php?rp=/store/minecraft-basic/stone",
-    linkpremium: "",
+    linkbasic: "https://billing.lodestone.host/index.php?rp=/store/minecraft-hosting/stone",
+    linkpremium: "https://billing.lodestone.host/index.php?rp=/store/minecraft-hosting/stone",
     color: "#7A8998",
   },
   {
     name: "COAL",
     memory: "2GB RAM",
     pricebasic: "£2.00",
-    pricepremium: "£3.00",
-    storagebasic: "100GB+ Storage",
-    storagepremium: "200GB+ Storage",
-    backupsbasic: "50GB+ Backups",
-    backupspremium: "100GB+ Backups",
-    dbsbasic: "3+ Databases",
-    dbspremium: "5+ Databases",
+    pricepremium: "£2.00",
     image: "/assets/images/minecraft-hosting/coal.webp",
-    linkbasic: "https://billing.lodestone.host/index.php?rp=/store/minecraft-basic/coal",
-    linkpremium: "",
+    linkbasic: "https://billing.lodestone.host/index.php?rp=/store/minecraft-hosting/coal",
+    linkpremium: "https://billing.lodestone.host/index.php?rp=/store/minecraft-hosting/coal",
     color: "#474747",
   },
   {
     name: "IRON",
     memory: "4GB RAM",
     pricebasic: "£4.00",
-    pricepremium: "£6.00",
-    storagebasic: "100GB+ Storage",
-    storagepremium: "200GB+ Storage",
-    backupsbasic: "50GB+ Backups",
-    backupspremium: "100GB+ Backups",
-    dbsbasic: "3+ Databases",
-    dbspremium: "5+ Databases",
+    pricepremium: "£4.00",
     image: "/assets/images/minecraft-hosting/iron.webp",
-    linkbasic: "https://billing.lodestone.host/index.php?rp=/store/minecraft-basic/iron",
-    linkpremium: "",
+    linkbasic: "https://billing.lodestone.host/index.php?rp=/store/minecraft-hosting/iron",
+    linkpremium: "https://billing.lodestone.host/index.php?rp=/store/minecraft-hosting/iron",
     color: "#FCB577",
   },
   {
     name: "GOLD",
     memory: "6GB RAM",
     pricebasic: "£6.00",
-    pricepremium: "£9.00",
-    storagebasic: "100GB+ Storage",
-    storagepremium: "200GB+ Storage",
-    backupsbasic: "50GB+ Backups",
-    backupspremium: "100GB+ Backups",
-    dbsbasic: "3+ Databases",
-    dbspremium: "5+ Databases",
+    pricepremium: "£6.00",
     image: "/assets/images/minecraft-hosting/gold.webp",
-    linkbasic: "https://billing.lodestone.host/index.php?rp=/store/minecraft-basic/gold",
-    linkpremium: "",
+    linkbasic: "https://billing.lodestone.host/index.php?rp=/store/minecraft-hosting/gold",
+    linkpremium: "https://billing.lodestone.host/index.php?rp=/store/minecraft-hosting/gold",
     color: "#DECD2E",
   },
   {
     name: "LAPIS",
     memory: "8GB RAM",
     pricebasic: "£8.00",
-    pricepremium: "£12.00",
-    storagebasic: "100GB+ Storage",
-    storagepremium: "200GB+ Storage",
-    backupsbasic: "50GB+ Backups",
-    backupspremium: "100GB+ Backups",
-    dbsbasic: "3+ Databases",
-    dbspremium: "5+ Databases",
+    pricepremium: "£8.00",
     image: "/assets/images/minecraft-hosting/lapis.webp",
-    linkbasic: "https://billing.lodestone.host/index.php?rp=/store/minecraft-basic/lapis",
-    linkpremium: "",
+    linkbasic: "https://billing.lodestone.host/index.php?rp=/store/minecraft-hosting/lapis",
+    linkpremium: "https://billing.lodestone.host/index.php?rp=/store/minecraft-hosting/lapis",
     color: "#0063CD",
   },
   {
     name: "REDSTONE",
     memory: "10GB RAM",
     pricebasic: "£10.00",
-    pricepremium: "£15.00",
-    storagebasic: "100GB+ Storage",
-    storagepremium: "200GB+ Storage",
-    backupsbasic: "50GB+ Backups",
-    backupspremium: "100GB+ Backups",
-    dbsbasic: "3+ Databases",
-    dbspremium: "5+ Databases",
+    pricepremium: "£10.00",
     image: "/assets/images/minecraft-hosting/redstone.webp",
-    linkbasic: "https://billing.lodestone.host/index.php?rp=/store/minecraft-basic/redstone",
-    linkpremium: "",
+    linkbasic: "https://billing.lodestone.host/index.php?rp=/store/minecraft-hosting/redstone",
+    linkpremium: "https://billing.lodestone.host/index.php?rp=/store/minecraft-hosting/redstone",
     color: "#DC362B",
   },
   {
     name: "DIAMOND",
     memory: "12GB RAM",
     pricebasic: "£12.00",
-    pricepremium: "£18.00",
-    storagebasic: "100GB+ Storage",
-    storagepremium: "200GB+ Storage",
-    backupsbasic: "50GB+ Backups",
-    backupspremium: "100GB+ Backups",
-    dbsbasic: "3+ Databases",
-    dbspremium: "5+ Databases",
+    pricepremium: "£12.00",
     image: "/assets/images/minecraft-hosting/diamond.webp",
-    linkbasic: "https://billing.lodestone.host/index.php?rp=/store/minecraft-basic/diamond",
-    linkpremium: "",
+    linkbasic: "https://billing.lodestone.host/index.php?rp=/store/minecraft-hosting/diamond",
+    linkpremium: "https://billing.lodestone.host/index.php?rp=/store/minecraft-hosting/diamond",
     color: "#1DCDE2",
   },
   {
     name: "EMERALD",
     memory: "16GB RAM",
     pricebasic: "£16.00",
-    pricepremium: "£24.00",
-    storagebasic: "100GB+ Storage",
-    storagepremium: "200GB+ Storage",
-    backupsbasic: "50GB+ Backups",
-    backupspremium: "100GB+ Backups",
-    dbsbasic: "3+ Databases",
-    dbspremium: "5+ Databases",
+    pricepremium: "£16.00",
     image: "/assets/images/minecraft-hosting/emerald.webp",
-    linkbasic: "https://billing.lodestone.host/index.php?rp=/store/minecraft-basic/emerald",
-    linkpremium: "",
+    linkbasic: "https://billing.lodestone.host/index.php?rp=/store/minecraft-hosting/emerald",
+    linkpremium: "https://billing.lodestone.host/index.php?rp=/store/minecraft-hosting/emerald",
     color: "#65E185",
   },
   {
     name: "AMETHYST",
     memory: "24GB RAM",
     pricebasic: "£24.00",
-    pricepremium: "£36.00",
-    storagebasic: "100GB+ Storage",
-    storagepremium: "200GB+ Storage",
-    backupsbasic: "50GB+ Backups",
-    backupspremium: "100GB+ Backups",
-    dbsbasic: "3+ Databases",
-    dbspremium: "5+ Databases",
+    pricepremium: "£24.00",
     image: "/assets/images/minecraft-hosting/amethyst.webp",
-    linkbasic: "https://billing.lodestone.host/index.php?rp=/store/minecraft-basic/amethyst",
-    linkpremium: "",
+    linkbasic: "https://billing.lodestone.host/index.php?rp=/store/minecraft-hosting/amethyst",
+    linkpremium: "https://billing.lodestone.host/index.php?rp=/store/minecraft-hosting/amethyst",
     color: "#BD4CD8",
   },
   {
     name: "BEACON",
     memory: "32GB RAM",
     pricebasic: "£32.00",
-    pricepremium: "£48.00",
-    storagebasic: "100GB+ Storage",
-    storagepremium: "200GB+ Storage",
-    backupsbasic: "50GB+ Backups",
-    backupspremium: "100GB+ Backups",
-    dbsbasic: "3+ Databases",
-    dbspremium: "5+ Databases",
+    pricepremium: "£32.00",
     image: "/assets/images/minecraft-hosting/beacon.webp",
-    linkbasic: "https://billing.lodestone.host/index.php?rp=/store/minecraft-basic/beacon",
-    linkpremium: "",
+    linkbasic: "https://billing.lodestone.host/index.php?rp=/store/minecraft-hosting/beacon",
+    linkpremium: "https://billing.lodestone.host/index.php?rp=/store/minecraft-hosting/beacon",
     color: "#09A9D7",
   },
 ];
@@ -217,15 +157,15 @@ const PlanCard = ({ plan, isPremium }: { plan: any; isPremium: boolean }) => (
     <ul className="mt-6">
     <li className="flex items-center gap-2">
         <FontAwesomeIcon icon={faHardDrive} className="w-5" />
-        {isPremium ? plan.storagepremium : plan.storagebasic}
+        100GB+ Storage
       </li>
       <li className="flex items-center gap-2">
         <FontAwesomeIcon icon={faServer} className="w-5" />
-        {isPremium ? plan.backupspremium : plan.backupsbasic}
+        50GB+ Backups
       </li>
       <li className="flex items-center gap-2">
         <FontAwesomeIcon icon={faDatabase} className="w-5" />
-        {isPremium ? plan.dbspremium : plan.dbsbasic}
+        3+ Databases
       </li>
       <li className="flex items-center gap-2">
         <FontAwesomeIcon icon={faUsers} className="w-5" />
@@ -277,38 +217,15 @@ const Pricing = () => {
           <p className="w-full text-lg md:w-[700px]">
           Easily host your very own Minecraft server or network with Lodestone. Enjoy <b>reliable, fully customisable and quick to set up</b> servers, perfect for playing with friends or starting a community. 
           </p>
-          <br></br>
-          <p className="w-full text-lg md:w-[700px]">
-          <b>Important:</b> Premium plans are coming soon.
-          
-          </p>
         </div>
       </section>
       <section className="overflow-hidden bg-secondary p-5 lg:p-16">
         <div className="container mx-auto max-w-7xl">
           <div className="flex flex-col items-center justify-between rounded-xl bg-primary p-3 md:flex-row">
-            <div className="mb-4 flex flex-row gap-1 text-center md:mb-0">
-              {["Basic", "Premium"].map((label, index) => {
-                const isActive = (label === "Premium") === isPremium;
-                return (
-                  <button
-                    key={label}
-                    className={`w-40 rounded-xl py-4 hover:cursor-pointer ${
-                      isActive
-                        ? "bg-secondary"
-                        : "bg-none hover:outline hover:outline-teritiary"
-                    }`}
-                    onClick={() => setIsPremium(label === "Premium")}
-                  >
-                    {label}
-                  </button>
-                );
-              })}
-            </div>
             <div className="flex flex-col items-center gap-4 text-center md:flex-row">
               <div className="mb-2 flex items-center gap-1 md:mb-0">
                 <FontAwesomeIcon icon={faMicrochip} className="w-5" />{" "}
-                {isPremium ? "AMD Ryzen 9 5950X" : "Intel Core i9-9900K"}
+                {isPremium ? "AMD Ryzen 9 5950X" : "AMD Ryzen 9 5950X"}
               </div>
               <div className="mb-2 flex items-center gap-1 md:mb-0">
                 <FontAwesomeIcon icon={faMemory} className="w-5" />{" "}
@@ -317,8 +234,8 @@ const Pricing = () => {
               <div className="flex items-center gap-1">
                 <FontAwesomeIcon icon={faHardDrive} className="w-5" />{" "}
                 {isPremium
-                  ? "NVMe Storage"
-                  : "NVMe Storage"}
+                  ? "NVMe SSD"
+                  : "NVMe SSD"}
               </div>
             </div>
           </div>

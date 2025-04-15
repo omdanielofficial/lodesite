@@ -92,7 +92,7 @@ const features = [
     ),
     title: "Enterprise Hardware",
     description:
-      "We use high-performance AMD Ryzen and Intel Core processors, to deliver unparalleled performance.",
+      "We use high-performance AMD Ryzen 9 processors, to deliver unparalleled performance.",
   },
   {
     icon: (
