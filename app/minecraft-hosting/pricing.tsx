@@ -388,7 +388,7 @@ const Pricing = () => {
             priority
           />
           <Image
-            src="/assets/images/games/minecraft-server-hosting/minecraft-characters.webp"
+            src="/assets/images/minecraft-hosting/minecraft-characters.webp"
             alt="Minecraft characters"
             width={250}
             height={0}

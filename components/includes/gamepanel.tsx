@@ -38,7 +38,7 @@ const GamePanel = () => {
       <div className="relative mx-auto grid max-w-7xl grid-cols-1 items-center gap-16 lg:grid-cols-2">
         <div className="flex flex-col gap-4">
           <h1 className="text-xl font-bold lg:text-3xl">
-            Server Management, Simplified.
+            Intuitive Game Panel
           </h1>
           <p className="text-gray-300">
           An intuitive interface for managing your game servers with real-time metrics, unrestricted file access, and advanced controls.
