@@ -24,7 +24,7 @@ const DataCenter = () => {
       longitude: -48.6,
     },
     {
-      name: "Falkenstein, DE (Coming Soon)",
+      name: "Falkenstein, DE",
       flagUrl: "/assets/images/worldmap/de.webp",
       latitude: 20.8,
       longitude: -4,
