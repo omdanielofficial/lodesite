@@ -2,11 +2,11 @@
   "/_not-found/page": "app/_not-found/page.js",
   "/favicon.ico/route": "app/favicon.ico/route.js",
   "/page": "app/page.js",
-  "/about/page": "app/about/page.js",
+  "/discord-bot-hosting/page": "app/discord-bot-hosting/page.js",
   "/dedicated-hosting/page": "app/dedicated-hosting/page.js",
   "/minecraft-hosting/page": "app/minecraft-hosting/page.js",
-  "/discord-bot-hosting/page": "app/discord-bot-hosting/page.js",
   "/sitemap/page": "app/sitemap/page.js",
-  "/terms-of-service/page": "app/terms-of-service/page.js",
-  "/privacy-policy/page": "app/privacy-policy/page.js"
+  "/about/page": "app/about/page.js",
+  "/privacy-policy/page": "app/privacy-policy/page.js",
+  "/terms-of-service/page": "app/terms-of-service/page.js"
 }
