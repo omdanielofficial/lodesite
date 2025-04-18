@@ -42,7 +42,7 @@ const Trustpilot = () => {
                     ></path>
                   </svg>
                 </p>
-                <p className="mb-0">7+ Reviews</p>
+                <p className="mb-0">8+ Reviews</p>
                 <p className="mb-0">
                   <svg
                     viewBox="0 0 104 24"

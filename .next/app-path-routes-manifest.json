@@ -3,9 +3,9 @@
   "/favicon.ico/route": "/favicon.ico",
   "/page": "/",
   "/dedicated-hosting/page": "/dedicated-hosting",
+  "/minecraft-hosting/page": "/minecraft-hosting",
   "/about/page": "/about",
   "/discord-bot-hosting/page": "/discord-bot-hosting",
-  "/minecraft-hosting/page": "/minecraft-hosting",
   "/sitemap/page": "/sitemap",
   "/privacy-policy/page": "/privacy-policy",
   "/terms-of-service/page": "/terms-of-service"
