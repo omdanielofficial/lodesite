@@ -3,10 +3,10 @@
   "/favicon.ico/route": "/favicon.ico",
   "/page": "/",
   "/dedicated-hosting/page": "/dedicated-hosting",
-  "/minecraft-hosting/page": "/minecraft-hosting",
   "/about/page": "/about",
-  "/discord-bot-hosting/page": "/discord-bot-hosting",
   "/sitemap/page": "/sitemap",
+  "/minecraft-hosting/page": "/minecraft-hosting",
+  "/discord-bot-hosting/page": "/discord-bot-hosting",
   "/privacy-policy/page": "/privacy-policy",
   "/terms-of-service/page": "/terms-of-service"
 }
