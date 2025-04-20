@@ -22,6 +22,8 @@ const plans = [
   {
     name: "STONE",
     memory: "1GB RAM",
+    storage: "100GB+",
+    backups: "50GB+",
     pricebasic: "£1.00",
     pricepremium: "£1.00",
     image: "/assets/images/minecraft-hosting/stone.webp",
@@ -32,6 +34,8 @@ const plans = [
   {
     name: "COAL",
     memory: "2GB RAM",
+    storage: "100GB+",
+    backups: "50GB+",
     pricebasic: "£2.00",
     pricepremium: "£2.00",
     image: "/assets/images/minecraft-hosting/coal.webp",
@@ -42,6 +46,8 @@ const plans = [
   {
     name: "IRON",
     memory: "4GB RAM",
+    storage: "100GB+",
+    backups: "50GB+",
     pricebasic: "£4.00",
     pricepremium: "£4.00",
     image: "/assets/images/minecraft-hosting/iron.webp",
@@ -52,6 +58,8 @@ const plans = [
   {
     name: "GOLD",
     memory: "6GB RAM",
+    storage: "100GB+",
+    backups: "50GB+",
     pricebasic: "£6.00",
     pricepremium: "£6.00",
     image: "/assets/images/minecraft-hosting/gold.webp",
@@ -62,6 +70,8 @@ const plans = [
   {
     name: "LAPIS",
     memory: "8GB RAM",
+    storage: "100GB+",
+    backups: "50GB+",
     pricebasic: "£8.00",
     pricepremium: "£8.00",
     image: "/assets/images/minecraft-hosting/lapis.webp",
@@ -72,6 +82,8 @@ const plans = [
   {
     name: "REDSTONE",
     memory: "10GB RAM",
+    storage: "100GB+",
+    backups: "50GB+",
     pricebasic: "£10.00",
     pricepremium: "£10.00",
     image: "/assets/images/minecraft-hosting/redstone.webp",
@@ -82,6 +94,8 @@ const plans = [
   {
     name: "DIAMOND",
     memory: "12GB RAM",
+    storage: "100GB+",
+    backups: "50GB+",
     pricebasic: "£12.00",
     pricepremium: "£12.00",
     image: "/assets/images/minecraft-hosting/diamond.webp",
@@ -92,6 +106,8 @@ const plans = [
   {
     name: "EMERALD",
     memory: "16GB RAM",
+    storage: "150GB+",
+    backups: "100GB+",
     pricebasic: "£16.00",
     pricepremium: "£16.00",
     image: "/assets/images/minecraft-hosting/emerald.webp",
@@ -102,6 +118,8 @@ const plans = [
   {
     name: "AMETHYST",
     memory: "24GB RAM",
+    storage: "150GB+",
+    backups: "100GB+",
     pricebasic: "£24.00",
     pricepremium: "£24.00",
     image: "/assets/images/minecraft-hosting/amethyst.webp",
@@ -112,6 +130,8 @@ const plans = [
   {
     name: "BEACON",
     memory: "32GB RAM",
+    storage: "150GB+",
+    backups: "100GB+",
     pricebasic: "£32.00",
     pricepremium: "£32.00",
     image: "/assets/images/minecraft-hosting/beacon.webp",
@@ -157,11 +177,11 @@ const PlanCard = ({ plan, isPremium }: { plan: any; isPremium: boolean }) => (
     <ul className="mt-6">
     <li className="flex items-center gap-2">
         <FontAwesomeIcon icon={faHardDrive} className="w-5" />
-        100GB+ Storage
+        {plan.storage} Storage
       </li>
       <li className="flex items-center gap-2">
         <FontAwesomeIcon icon={faServer} className="w-5" />
-        50GB+ Backups
+        {plan.backups} Backups
       </li>
       <li className="flex items-center gap-2">
         <FontAwesomeIcon icon={faDatabase} className="w-5" />
