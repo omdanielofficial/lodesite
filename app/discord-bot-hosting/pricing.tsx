@@ -27,6 +27,8 @@ const plans = [
     storage: "10GB NVMe",
     pricebasic: "£2.00",
     pricepremium: "£2.00",
+    qtrbasic: "£5.40",
+    qtrpremium: "£5.40",
     image: "/assets/images/discord-bot-hosting/bot.webp",
     linkbasic: "https://billing.lodestone.host/index.php?rp=/store/discord-bot-hosting/discord-bot-1gb",
     linkpremium: "https://billing.lodestone.host/index.php?rp=/store/discord-bot-hosting/discord-bot-1gb",
@@ -38,6 +40,8 @@ const plans = [
     storage: "20GB NVMe",
     pricebasic: "£4.00",
     pricepremium: "£4.00",
+    qtrbasic: "£10.80",
+    qtrpremium: "£10.80",
     image: "/assets/images/discord-bot-hosting/bot.webp",
     linkbasic: "https://billing.lodestone.host/index.php?rp=/store/discord-bot-hosting/discord-bot-2gb",
     linkpremium: "https://billing.lodestone.host/index.php?rp=/store/discord-bot-hosting/discord-bot-2gb",
@@ -49,6 +53,8 @@ const plans = [
     storage: "40GB NVMe",
     pricebasic: "£8.00",
     pricepremium: "£8.00",
+    qtrbasic: "£21.60",
+    qtrpremium: "£21.60",
     image: "/assets/images/discord-bot-hosting/bot.webp",
     linkbasic: "https://billing.lodestone.host/index.php?rp=/store/discord-bot-hosting/discord-bot-4gb",
     linkpremium: "https://billing.lodestone.host/index.php?rp=/store/discord-bot-hosting/discord-bot-4gb",
@@ -109,11 +115,15 @@ const PlanCard = ({ plan, isPremium }: { plan: any; isPremium: boolean }) => (
     </ul>
     <div className="mt-6 flex items-center justify-between">
     <div className="flex flex-col">
-        <span className="text-[12px]">Starting at</span>
+        <span className="text-[12px]">Starting from</span>
         <h3 className="text-xl font-bold">
           {isPremium ? plan.pricepremium : plan.pricebasic}
           <small>/mo</small>
         </h3>
+        <span className="text-[12px]">
+        {isPremium ? plan.qtrpremium : plan.qtrbasic}
+        /qtr (10% off)
+        </span>
       </div>
       <Link
         href={isPremium ? plan.linkpremium : plan.linkbasic}

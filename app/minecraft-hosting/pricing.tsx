@@ -26,6 +26,8 @@ const plans = [
     backups: "50GB+",
     pricebasic: "£1.00",
     pricepremium: "£1.00",
+    qtrbasic: "£2.70",
+    qtrpremium: "£2.70",
     image: "/assets/images/minecraft-hosting/stone.webp",
     linkbasic: "https://billing.lodestone.host/index.php?rp=/store/minecraft-hosting/stone",
     linkpremium: "https://billing.lodestone.host/index.php?rp=/store/minecraft-hosting/stone",
@@ -38,6 +40,8 @@ const plans = [
     backups: "50GB+",
     pricebasic: "£2.00",
     pricepremium: "£2.00",
+    qtrbasic: "£5.40",
+    qtrpremium: "£5.40",
     image: "/assets/images/minecraft-hosting/coal.webp",
     linkbasic: "https://billing.lodestone.host/index.php?rp=/store/minecraft-hosting/coal",
     linkpremium: "https://billing.lodestone.host/index.php?rp=/store/minecraft-hosting/coal",
@@ -50,6 +54,8 @@ const plans = [
     backups: "50GB+",
     pricebasic: "£4.00",
     pricepremium: "£4.00",
+    qtrbasic: "£10.80",
+    qtrpremium: "£10.80",
     image: "/assets/images/minecraft-hosting/iron.webp",
     linkbasic: "https://billing.lodestone.host/index.php?rp=/store/minecraft-hosting/iron",
     linkpremium: "https://billing.lodestone.host/index.php?rp=/store/minecraft-hosting/iron",
@@ -62,6 +68,8 @@ const plans = [
     backups: "50GB+",
     pricebasic: "£6.00",
     pricepremium: "£6.00",
+    qtrbasic: "£16.20",
+    qtrpremium: "£16.20",
     image: "/assets/images/minecraft-hosting/gold.webp",
     linkbasic: "https://billing.lodestone.host/index.php?rp=/store/minecraft-hosting/gold",
     linkpremium: "https://billing.lodestone.host/index.php?rp=/store/minecraft-hosting/gold",
@@ -74,6 +82,8 @@ const plans = [
     backups: "50GB+",
     pricebasic: "£8.00",
     pricepremium: "£8.00",
+    qtrbasic: "£21.60",
+    qtrpremium: "£21.60",
     image: "/assets/images/minecraft-hosting/lapis.webp",
     linkbasic: "https://billing.lodestone.host/index.php?rp=/store/minecraft-hosting/lapis",
     linkpremium: "https://billing.lodestone.host/index.php?rp=/store/minecraft-hosting/lapis",
@@ -86,6 +96,8 @@ const plans = [
     backups: "50GB+",
     pricebasic: "£10.00",
     pricepremium: "£10.00",
+    qtrbasic: "£27.00",
+    qtrpremium: "£27.00",
     image: "/assets/images/minecraft-hosting/redstone.webp",
     linkbasic: "https://billing.lodestone.host/index.php?rp=/store/minecraft-hosting/redstone",
     linkpremium: "https://billing.lodestone.host/index.php?rp=/store/minecraft-hosting/redstone",
@@ -98,6 +110,8 @@ const plans = [
     backups: "50GB+",
     pricebasic: "£12.00",
     pricepremium: "£12.00",
+    qtrbasic: "£32.40",
+    qtrpremium: "£32.40",
     image: "/assets/images/minecraft-hosting/diamond.webp",
     linkbasic: "https://billing.lodestone.host/index.php?rp=/store/minecraft-hosting/diamond",
     linkpremium: "https://billing.lodestone.host/index.php?rp=/store/minecraft-hosting/diamond",
@@ -110,6 +124,8 @@ const plans = [
     backups: "100GB+",
     pricebasic: "£16.00",
     pricepremium: "£16.00",
+    qtrbasic: "£43.20",
+    qtrpremium: "£43.20",
     image: "/assets/images/minecraft-hosting/emerald.webp",
     linkbasic: "https://billing.lodestone.host/index.php?rp=/store/minecraft-hosting/emerald",
     linkpremium: "https://billing.lodestone.host/index.php?rp=/store/minecraft-hosting/emerald",
@@ -122,6 +138,8 @@ const plans = [
     backups: "100GB+",
     pricebasic: "£24.00",
     pricepremium: "£24.00",
+    qtrbasic: "£64.80",
+    qtrpremium: "£64.80",
     image: "/assets/images/minecraft-hosting/amethyst.webp",
     linkbasic: "https://billing.lodestone.host/index.php?rp=/store/minecraft-hosting/amethyst",
     linkpremium: "https://billing.lodestone.host/index.php?rp=/store/minecraft-hosting/amethyst",
@@ -134,6 +152,8 @@ const plans = [
     backups: "100GB+",
     pricebasic: "£32.00",
     pricepremium: "£32.00",
+    qtrbasic: "£86.40",
+    qtrpremium: "£86.40",
     image: "/assets/images/minecraft-hosting/beacon.webp",
     linkbasic: "https://billing.lodestone.host/index.php?rp=/store/minecraft-hosting/beacon",
     linkpremium: "https://billing.lodestone.host/index.php?rp=/store/minecraft-hosting/beacon",
@@ -198,11 +218,15 @@ const PlanCard = ({ plan, isPremium }: { plan: any; isPremium: boolean }) => (
     </ul>
     <div className="mt-6 flex items-center justify-between">
       <div className="flex flex-col">
-        <span className="text-[12px]">Starting at</span>
+        <span className="text-[12px]">Starting from</span>
         <h3 className="text-xl font-bold">
           {isPremium ? plan.pricepremium : plan.pricebasic}
           <small>/mo</small>
         </h3>
+        <span className="text-[12px]">
+        {isPremium ? plan.qtrpremium : plan.qtrbasic}
+        /qtr (10% off)
+        </span>
       </div>
       <Link
         href={isPremium ? plan.linkpremium : plan.linkbasic}
