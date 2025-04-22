@@ -39,8 +39,8 @@ export const metadata: Metadata = {
     "Providing powerful, reliable, and affordable game hosting across the world. Whether you're hosting a server for a few friends or a large community, you can trust us to maintain performance and uptime.",
   keywords:
     "game server hosting, Minecraft hosting, web hosting, game hosting, 99.99% uptime, cheap Minecraft hosting, high-performance hosting, 24/7 support, affordable hosting plans, lodestone",
-  authors: [{ name: "Nusantara" }],
-  applicationName: "Nusantara",
+  authors: [{ name: "Lodestone" }],
+  applicationName: "Lodestone",
   robots: "index, follow",
   openGraph: {
     title: "Lodestone | Affordable & Reliable Game Hosting",

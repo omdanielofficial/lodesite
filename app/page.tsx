@@ -33,10 +33,10 @@ const HomePage = () => {
 
       <div className="container relative mx-auto flex max-w-7xl flex-col items-center justify-start pt-32 gap-6 text-center">
         <h1 className="text-3xl font-black sm:text-4xl md:text-5xl max-w-[48rem]">
-          Powerful, reliable, and affordable game hosting.
+          Powerful, reliable, and affordable game hosting
         </h1>
         <p className="max-w-xl">
-          Whether you&apos;re hosting a server for a few friends or a large community, you can trust us to maintain performance and uptime. Start your adventure in minutes from as little as £1/mo.
+          Whether you&apos;re hosting a server for a few friends or a large community, you can trust us to maintain performance and uptime. Start your adventure in minutes from as little as £1/mo!
         </p>
       </div>
     </section>
