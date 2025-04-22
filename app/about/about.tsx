@@ -81,10 +81,10 @@ export default function About() {
       >
         <div className="p-10 text-center">
           <h1 className="mb-4 text-xl font-bold lg:text-3xl">
-            About Lodestone
+            ABOUT US
           </h1>
           <p className="w-full text-gray-300 md:w-[700px]">
-            We&apos;re committed to providing top-tier hosting solutions that prioritise performance, sustainability, and genuine customer relationships.
+          Providing powerful, reliable, and affordable game hosting across the world.
           </p>
         </div>
       </section>

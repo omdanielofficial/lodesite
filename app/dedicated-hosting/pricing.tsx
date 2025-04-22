@@ -70,19 +70,13 @@ const features = [
   "High Performance",
   "DDoS Protection",
   "24/7 Managed Services",
-  "NYC Location",
   "Full Root Access",
   "IPv6 Supported",
   "No Setup Fees",
   "Linux & Windows",
-  "No Contracts",
   "Dedicated Resources",
-  "100% Bare Metal",
   "Worldwide Connectivity", 
   "NVMe SSDs",
-  "Additional IPv4 Addresses",
-  "AMD Ryzen CPUs",
-  "Crypto Mining",
 ];
 
 const PlanCard = ({ plan, isPremium }: { plan: any; isPremium: boolean }) => (
@@ -166,7 +160,7 @@ const Pricing = () => {
             DEDICATED HOSTING
           </h1>
           <p className="w-full text-lg md:w-[700px]">
-          Bare metal managed servers with the latest <b>AMD Ryzen CPUs and full root access</b> to keep you in control. Choose from Linux-based and Windows operating systems to power your applications with Lodestone.
+          Managed bare metal dedicated servers with the latest <b>AMD Ryzen CPUs and full root access</b> to keep you in control. Our team will take care of software installs, security monitoring, updates, and more.
           </p>
 
         </div>
@@ -200,21 +194,6 @@ const Pricing = () => {
                 Get in Touch
               </button>
             </Link>
-          </div>
-          <div className="mt-5 flex flex-col items-center justify-between rounded-xl bg-primary p-3 md:flex-row">
-            <div className="mb-4 flex gap-2 md:mb-0">
-              <FontAwesomeIcon
-                size="3x"
-                icon={faHandshake}
-                className="h-12 text-green-500"
-              />
-              <div className="flex flex-col">
-                <h2 className="font-bold">24/7 Managed Servers</h2>
-                <p>
-                Our team will take care of software installs, security monitoring, and more.
-                </p>
-              </div>
-            </div>
           </div>
         </div>
       </section>

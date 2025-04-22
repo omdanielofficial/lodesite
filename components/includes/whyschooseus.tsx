@@ -115,7 +115,7 @@ const features = [
         />
       </svg>
     ),
-    title: "Intuitive Panels",
+    title: "Intuitive Panel",
     description:
       "We use a modified version of the industry-leading Pterodactyl Panel, allowing you to manage your servers with ease.",
   },

@@ -22,9 +22,9 @@ import {
 
 const plans = [
   {
-    name: "Discord Bot 1GB",
-    memory: "1GB DDR4",
-    storage: "10GB NVMe",
+    name: "DISCORD BOT 1GB",
+    memory: "1GB RAM",
+    storage: "10GB",
     pricebasic: "£2.00",
     pricepremium: "£2.00",
     qtrbasic: "£5.40",
@@ -32,12 +32,12 @@ const plans = [
     image: "/assets/images/discord-bot-hosting/bot.webp",
     linkbasic: "https://billing.lodestone.host/index.php?rp=/store/discord-bot-hosting/discord-bot-1gb",
     linkpremium: "https://billing.lodestone.host/index.php?rp=/store/discord-bot-hosting/discord-bot-1gb",
-    color: "#7A8998",
+    color: "#7289DA",
   },
   {
-    name: "Discord Bot 2GB",
-    memory: "2GB DDR4",
-    storage: "20GB NVMe",
+    name: "DISCORD BOT 2GB",
+    memory: "2GB RAM",
+    storage: "20GB",
     pricebasic: "£4.00",
     pricepremium: "£4.00",
     qtrbasic: "£10.80",
@@ -45,12 +45,12 @@ const plans = [
     image: "/assets/images/discord-bot-hosting/bot.webp",
     linkbasic: "https://billing.lodestone.host/index.php?rp=/store/discord-bot-hosting/discord-bot-2gb",
     linkpremium: "https://billing.lodestone.host/index.php?rp=/store/discord-bot-hosting/discord-bot-2gb",
-    color: "#7A8998",
+    color: "#7289DA",
   },
   {
-    name: "Discord Bot 4GB",
-    memory: "4GB DDR4",
-    storage: "40GB NVMe",
+    name: "DISCORD BOT 4GB",
+    memory: "4GB RAM",
+    storage: "40GB",
     pricebasic: "£8.00",
     pricepremium: "£8.00",
     qtrbasic: "£21.60",
@@ -58,7 +58,7 @@ const plans = [
     image: "/assets/images/discord-bot-hosting/bot.webp",
     linkbasic: "https://billing.lodestone.host/index.php?rp=/store/discord-bot-hosting/discord-bot-4gb",
     linkpremium: "https://billing.lodestone.host/index.php?rp=/store/discord-bot-hosting/discord-bot-4gb",
-    color: "#7A8998",
+    color: "#7289DA",
   },
 ];
 
@@ -86,16 +86,12 @@ const PlanCard = ({ plan, isPremium }: { plan: any; isPremium: boolean }) => (
   >
     <div className="flex items-center justify-between">
       <div className="flex flex-col text-xl font-bold">
-        <small style={{ color: plan.color }}></small>
-        {plan.name}
+        <small style={{ color: plan.color }}>{plan.name}</small>
+        {plan.memory}
       </div>
       <Image src={plan.image} alt={`${plan.name} Plan`} width={75} height={0} />
     </div>
     <ul className="mt-6">
-    <li className="flex items-center gap-2">
-        <FontAwesomeIcon icon={faMemory} className="w-5" />
-        {plan.memory} RAM
-      </li>
       <li className="flex items-center gap-2">
         <FontAwesomeIcon icon={faHardDrive} className="w-5" />
         {plan.storage} Storage
@@ -156,14 +152,30 @@ const Pricing = () => {
             DISCORD BOT HOSTING
           </h1>
           <p className="w-full text-lg md:w-[700px]">
-          High-performance Discord bot hosting with support for <b>Node.js, Python, and Java</b>. Upload files or pull from an GitHub repository to easily get your bot online with Lodestone.
+          Get your Discord bot up and running in minutes with Lodestone, hosted on high-performance hardware and with support for <b>Node.js, Python, and Java</b>.
           </p>
-
         </div>
       </section>
       <section className="overflow-hidden bg-secondary p-5 lg:p-16">
         <div className="container mx-auto max-w-7xl">
-
+        <div className="flex flex-col items-center justify-between rounded-xl bg-primary p-3 md:flex-row">
+            <div className="flex flex-col items-center gap-4 text-center md:flex-row">
+              <div className="mb-2 flex items-center gap-1 md:mb-0">
+                <FontAwesomeIcon icon={faMicrochip} className="w-5" />{" "}
+                {isPremium ? "AMD Ryzen 9 5950X" : "AMD Ryzen 9 5950X"}
+              </div>
+              <div className="mb-2 flex items-center gap-1 md:mb-0">
+                <FontAwesomeIcon icon={faMemory} className="w-5" />{" "}
+                {isPremium ? "DDR4 RAM" : "DDR4 RAM"}
+              </div>
+              <div className="flex items-center gap-1">
+                <FontAwesomeIcon icon={faHardDrive} className="w-5" />{" "}
+                {isPremium
+                  ? "NVMe SSDs"
+                  : "NVMe SSDs"}
+              </div>
+            </div>
+          </div>
           <div className="mt-5 grid grid-cols-1 gap-5 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-3">
             {plans.map((plan) => (
               <PlanCard key={plan.name} plan={plan} isPremium={isPremium} />

@@ -259,7 +259,7 @@ const Pricing = () => {
             MINECRAFT HOSTING
           </h1>
           <p className="w-full text-lg md:w-[700px]">
-          Easily host your very own Minecraft server or network with Lodestone. Enjoy <b>reliable, fully customisable and quick to set up</b> servers, perfect for playing with friends or starting a community. 
+          Easily host your very own Minecraft: Java Edition server or network with Lodestone. Enjoy <b>reliable, fully customisable, and quick to set up</b> servers, perfect for playing with friends or starting a community. 
           </p>
         </div>
       </section>
@@ -278,8 +278,8 @@ const Pricing = () => {
               <div className="flex items-center gap-1">
                 <FontAwesomeIcon icon={faHardDrive} className="w-5" />{" "}
                 {isPremium
-                  ? "NVMe SSD"
-                  : "NVMe SSD"}
+                  ? "NVMe SSDs"
+                  : "NVMe SSDs"}
               </div>
             </div>
           </div>
