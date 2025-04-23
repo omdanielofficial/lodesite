@@ -69,7 +69,7 @@ const features = [
   "Reliable Hardware",
   "High Performance",
   "DDoS Protection",
-  "24/7 Managed Services",
+  "Managed Services",
   "Full Root Access",
   "IPv6 Supported",
   "No Setup Fees",

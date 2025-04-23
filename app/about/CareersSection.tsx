@@ -1,29 +1,6 @@
 "use client";
 import { useState } from "react";
 
-const benefits = [
-  {
-    title: "Growth Opportunities",
-    description:
-      "We are committed to providing our team with opportunities for growth and development through training programs.",
-  },
-  {
-    title: "Flexible Working",
-    description:
-      "We offer flexible work arrangements, including remote work, to help you achieve a healthy work-life balance.",
-  },
-  {
-    title: "Great Environment",
-    description:
-      "We believe in creating a collaborative and inclusive workplace environment that encourages teamwork.",
-  },
-  {
-    title: "Attractive Benefits",
-    description:
-      "We provide a comprehensive and competitive rewards package, including a 25% discount across our services.",
-  },
-];
-
 const positions = [
   {
     title: "Brand Associate",
@@ -84,24 +61,7 @@ export default function CareersSection() {
         <div className="text-dark-n-300 mt-3 mb-8 text-center text-base leading-6 max-w-3xl mx-auto">
           <p>We&apos;re always looking for passionate people to help us grow.</p>
         </div>
-        {/* Benefits */}
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-6 mb-12">
-          {benefits.map((benefit, idx) => (
-            <div
-              key={idx}
-              className="bg-secondary rounded-xl p-6 text-center shadow-md"
-            >
-              <h4 className="font-bold text-lg mb-2">{benefit.title}</h4>
-              <p className="text-gray-300">{benefit.description}</p>
-            </div>
-          ))}
-        </div>
         {/* Open Positions */}
-        <div className="mb-2">
-          <h3 className="text-lg font-bold sm:text-2xl sm:leading-[2rem] text-center">
-            Open Positions
-          </h3>
-        </div>
         <div className="flex flex-col gap-4 max-w-2xl mx-auto">
           {positions.map((position, idx) => (
             <div

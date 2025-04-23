@@ -137,7 +137,7 @@ const WhyChooseUs = () => {
               Why Choose Lodestone?
             </div>
             <p className="text-gray-300">
-            Features designed to provide the best performance, security, and support for your applications.
+            Features designed to provide the best performance, security, and support for your servers.
             </p>
           </div>
           <div className="-mx-4 flex flex-wrap">

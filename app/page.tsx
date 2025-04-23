@@ -1,7 +1,8 @@
 "use client";
 import { useState, useEffect } from "react";
+import Link from "next/link";
 
-const defaultBackground = "/assets/images/homepage/default.png";
+const defaultBackground = "/assets/images/homepage/mc.webp";
 
 const HomePage = () => {
   const [fade, setFade] = useState<boolean>(true);
@@ -16,13 +17,13 @@ const HomePage = () => {
   return (
     <section
       className="relative overflow-hidden bg-secondary p-5 lg:p-16"
-      style={{ minHeight: "40rem" }} // Reduced height here
+      style={{ minHeight: "40rem" }}
     >
       {/* Background with fade effect */}
       <div
         className={`absolute inset-0 w-full bg-cover bg-center transition-opacity duration-200 ease-in-out`}
         style={{
-          height: "40rem", // Reduced height here
+          height: "40rem",
           opacity: fade ? 1 : 0.1,
           backgroundImage:
             "radial-gradient(closest-side, rgba(35, 39, 46, .70), #23272E), url(" +
@@ -36,8 +37,49 @@ const HomePage = () => {
           Powerful, reliable, and affordable game hosting
         </h1>
         <p className="max-w-xl">
-          Whether you&apos;re hosting a server for a few friends or a large community, you can trust us to maintain performance and uptime. Start your adventure in minutes from as little as £1/mo!
+          Whether you&apos;re hosting a Minecraft server for a few friends or a large community, you can trust us to maintain performance and uptime
         </p>
+
+        {/* Buttons container */}
+        <div className="mt-4 flex gap-4 justify-center">
+          <Link href="/minecraft-hosting" passHref>
+            <button
+              className="px-4 py-2 rounded-lg bg-purple-400 text-white font-bold shadow-lg hover:bg-purple-500 transition-colors flex items-center justify-center text-sm"
+            >
+              Get Started
+              <svg
+                className="w-4 h-4 ml-2"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+                aria-hidden="true"
+              >
+                <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7"></path>
+              </svg>
+            </button>
+          </Link>
+
+          <Link href="https://billing.lodestone.host/submitticket.php" passHref>
+            <button
+              className="px-4 py-2 rounded-lg bg-purple-600 text-white font-bold shadow-lg hover:bg-purple-700 transition-colors flex items-center justify-center text-sm"
+            >
+              Contact Us
+              <svg
+                className="w-4 h-4 ml-2"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+                aria-hidden="true"
+              >
+                <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7"></path>
+              </svg>
+            </button>
+          </Link>
+        </div>
       </div>
     </section>
   );
