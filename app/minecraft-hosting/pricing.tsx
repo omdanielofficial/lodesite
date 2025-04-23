@@ -162,9 +162,9 @@ const plans = [
 ];
 
 const features = [
+  "Java & Bedrock Editions",
   "Bungeecord Support",
-  "Bedrock Edition Support",
-  "Java Version Switcher",
+  "Version Switcher",
   "99.99% Uptime",
   "Task Scheduling",
   "Full SFTP Access",
@@ -255,12 +255,16 @@ const Pricing = () => {
         }}
       >
         <div className="p-10 text-center">
-          <h1 className="mb-4 text-xl font-bold lg:text-3xl">
-            MINECRAFT HOSTING
-          </h1>
-          <p className="w-full text-lg md:w-[700px]">
-          Easily host your very own Minecraft: Java Edition server or network with Lodestone. Enjoy <b>reliable, fully customisable, and quick to set up</b> servers, perfect for playing with friends or starting a community. 
-          </p>
+        <h1 className="mb-1 text-xl font-bold lg:text-3xl">
+  MINECRAFT HOSTING
+</h1>
+<p className="mb-4 text-sm font-semibold opacity-80 lg:text-base">
+  JAVA & BEDROCK EDITIONS
+</p>
+<p className="w-full text-lg md:w-[700px]">
+  Easily host your very own Minecraft server or network with Lodestone. Enjoy <b>reliable, fully customisable, and quick to set up</b> servers, perfect for playing with friends or starting a community. 
+</p>
+
         </div>
       </section>
       <section className="overflow-hidden bg-secondary p-5 lg:p-16">

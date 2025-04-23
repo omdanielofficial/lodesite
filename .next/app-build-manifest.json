@@ -13,13 +13,13 @@
       "static/chunks/684-d14ea7d978a5ee01.js",
       "static/chunks/main-app-cd58424a6e1e8c6f.js",
       "static/css/261d151ce0b0c59f.css",
-      "static/css/1d5df5f25454df8b.css",
+      "static/css/e5cecb7a6b0e500f.css",
       "static/chunks/870fdd6f-6ff0381f10c8357b.js",
       "static/chunks/766-9c47d768e2bf01b1.js",
       "static/chunks/874-2bbb8ba067b8c9e4.js",
       "static/chunks/489-ab6b13dccd3de2c5.js",
       "static/chunks/276-415ef897f3a727f1.js",
-      "static/chunks/app/layout-f98fcff2bfcda101.js"
+      "static/chunks/app/layout-1c6e852e0a7f0edb.js"
     ],
     "/page": [
       "static/chunks/webpack-08240b2d702a40db.js",
@@ -28,25 +28,6 @@
       "static/chunks/main-app-cd58424a6e1e8c6f.js",
       "static/chunks/874-2bbb8ba067b8c9e4.js",
       "static/chunks/app/page-cefc575da6be6af6.js"
-    ],
-    "/about/page": [
-      "static/chunks/webpack-08240b2d702a40db.js",
-      "static/chunks/4bd1b696-5b2b1e7b5478d01a.js",
-      "static/chunks/684-d14ea7d978a5ee01.js",
-      "static/chunks/main-app-cd58424a6e1e8c6f.js",
-      "static/chunks/766-9c47d768e2bf01b1.js",
-      "static/chunks/app/about/page-4f2d81d04c056bfc.js"
-    ],
-    "/minecraft-hosting/page": [
-      "static/chunks/webpack-08240b2d702a40db.js",
-      "static/chunks/4bd1b696-5b2b1e7b5478d01a.js",
-      "static/chunks/684-d14ea7d978a5ee01.js",
-      "static/chunks/main-app-cd58424a6e1e8c6f.js",
-      "static/chunks/870fdd6f-6ff0381f10c8357b.js",
-      "static/chunks/766-9c47d768e2bf01b1.js",
-      "static/chunks/874-2bbb8ba067b8c9e4.js",
-      "static/chunks/489-ab6b13dccd3de2c5.js",
-      "static/chunks/app/minecraft-hosting/page-d766f4125efb1a2a.js"
     ],
     "/dedicated-hosting/page": [
       "static/chunks/webpack-08240b2d702a40db.js",
@@ -69,6 +50,25 @@
       "static/chunks/874-2bbb8ba067b8c9e4.js",
       "static/chunks/489-ab6b13dccd3de2c5.js",
       "static/chunks/app/discord-bot-hosting/page-c2f16affe3287f87.js"
+    ],
+    "/minecraft-hosting/page": [
+      "static/chunks/webpack-08240b2d702a40db.js",
+      "static/chunks/4bd1b696-5b2b1e7b5478d01a.js",
+      "static/chunks/684-d14ea7d978a5ee01.js",
+      "static/chunks/main-app-cd58424a6e1e8c6f.js",
+      "static/chunks/870fdd6f-6ff0381f10c8357b.js",
+      "static/chunks/766-9c47d768e2bf01b1.js",
+      "static/chunks/874-2bbb8ba067b8c9e4.js",
+      "static/chunks/489-ab6b13dccd3de2c5.js",
+      "static/chunks/app/minecraft-hosting/page-b82f880b3b680564.js"
+    ],
+    "/about/page": [
+      "static/chunks/webpack-08240b2d702a40db.js",
+      "static/chunks/4bd1b696-5b2b1e7b5478d01a.js",
+      "static/chunks/684-d14ea7d978a5ee01.js",
+      "static/chunks/main-app-cd58424a6e1e8c6f.js",
+      "static/chunks/766-9c47d768e2bf01b1.js",
+      "static/chunks/app/about/page-4f2d81d04c056bfc.js"
     ],
     "/sitemap/page": [
       "static/chunks/webpack-08240b2d702a40db.js",

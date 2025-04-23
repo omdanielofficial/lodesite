@@ -14,9 +14,9 @@ const elements = [
     src: "/assets/images/game-panel/filemanager.png",
   },
   {
-    name: "plugininstaller",
-    label: "🧩 Plugin Installer",
-    src: "/assets/images/game-panel/plugininstaller.png",
+    name: "modpackinstaller",
+    label: "🧩 Modpack Installer",
+    src: "/assets/images/game-panel/modpackinstaller.png",
   },
 ];
 

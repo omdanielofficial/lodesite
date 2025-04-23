@@ -92,7 +92,7 @@ const features = [
     ),
     title: "Enterprise Hardware",
     description:
-      "We use high-performance AMD Ryzen 9 processors to deliver unparalleled performance.",
+      "All servers run on high-performance AMD Ryzen 9 series processors to deliver unparalleled performance.",
   },
   {
     icon: (
@@ -117,7 +117,7 @@ const features = [
     ),
     title: "Intuitive Panel",
     description:
-      "We use a modified version of the industry-leading Pterodactyl Panel, allowing you to manage your servers with ease.",
+      "We use a heavily modified version of the industry-leading Pterodactyl Panel, allowing you to manage your servers with ease.",
   },
 ];
 
