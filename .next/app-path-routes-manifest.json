@@ -4,9 +4,9 @@
   "/page": "/",
   "/discord-bot-hosting/page": "/discord-bot-hosting",
   "/minecraft-hosting/page": "/minecraft-hosting",
-  "/about/page": "/about",
   "/dedicated-hosting/page": "/dedicated-hosting",
+  "/about/page": "/about",
+  "/sitemap/page": "/sitemap",
   "/privacy-policy/page": "/privacy-policy",
-  "/terms-of-service/page": "/terms-of-service",
-  "/sitemap/page": "/sitemap"
+  "/terms-of-service/page": "/terms-of-service"
 }

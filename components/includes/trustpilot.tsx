@@ -18,7 +18,7 @@ const Trustpilot = () => {
             <Link href="https://trustpilot.com/review/lodestone.host">
               <div className="subheader-text flex flex-row flex-wrap justify-center gap-2.5 text-center text-base">
                 <p className="mb-0 font-medium">Excellent</p>
-                <p className="mb-0 font-bold">4.3/5.0</p>
+                <p className="mb-0 font-bold">4.4/5.0</p>
                 <p className="mb-0">
                   <svg
                     viewBox="0 0 128 24"
@@ -42,7 +42,7 @@ const Trustpilot = () => {
                     ></path>
                   </svg>
                 </p>
-                <p className="mb-0">9+ Reviews</p>
+                <p className="mb-0">10+ Reviews</p>
                 <p className="mb-0">
                   <svg
                     viewBox="0 0 104 24"
