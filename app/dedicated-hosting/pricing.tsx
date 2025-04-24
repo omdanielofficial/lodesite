@@ -30,8 +30,8 @@ const plans = [
     pricebasic: "£140.00",
     pricepremium: "£140.00",
     image: "/assets/images/dedicated-hosting/ryzen9.webp",
-    linkbasic: "https://billing.lodestone.host/index.php?rp=/store/dedicated-hosting/amd-ryzen-9-5950x",
-    linkpremium: "https://billing.lodestone.host/index.php?rp=/store/dedicated-hosting/amd-ryzen-9-5950x",
+    linkbasic: "https://billing.lodestone.host/submitticket.php",
+    linkpremium: "https://billing.lodestone.host/submitticket.php",
     color: "#7A8998",
   },
   {
@@ -43,8 +43,8 @@ const plans = [
     pricebasic: "£205.00",
     pricepremium: "£205.00",
     image: "/assets/images/dedicated-hosting/ryzen9.webp",
-    linkbasic: "https://billing.lodestone.host/index.php?rp=/store/dedicated-hosting/amd-ryzen-9-7950x",
-    linkpremium: "https://billing.lodestone.host/index.php?rp=/store/dedicated-hosting/amd-ryzen-9-7950x",
+    linkbasic: "https://billing.lodestone.host/submitticket.php",
+    linkpremium: "https://billing.lodestone.host/submitticket.php",
     color: "#7A8998",
   },
   {
@@ -56,8 +56,8 @@ const plans = [
     pricebasic: "£230.00",
     pricepremium: "£230.00",
     image: "/assets/images/dedicated-hosting/ryzen9.webp",
-    linkbasic: "https://billing.lodestone.host/index.php?rp=/store/dedicated-hosting/amd-ryzen-9-9950x",
-    linkpremium: "https://billing.lodestone.host/index.php?rp=/store/dedicated-hosting/amd-ryzen-9-9950x",
+    linkbasic: "https://billing.lodestone.host/submitticket.php",
+    linkpremium: "https://billing.lodestone.host/submitticket.php",
     color: "#7A8998",
   },
 ];
