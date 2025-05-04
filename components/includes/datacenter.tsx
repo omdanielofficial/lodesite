@@ -11,7 +11,6 @@ interface DataCenter {
   locationCode?: string;
   testIp?: string;
   uplink?: string;
-  services?: string;
 }
 
 const DataCenter = () => {
@@ -29,7 +28,6 @@ const DataCenter = () => {
       locationCode: "NYC",
       testIp: "104.243.42.233",
       uplink: "1 Gbps",
-      services: "Minecraft & Dedicated",
     },
     {
       name: "Falkenstein (Coming Soon)",
@@ -39,7 +37,6 @@ const DataCenter = () => {
       locationCode: "FSN",
       testIp: "",
       uplink: "1 Gbps",
-      services: "Minecraft",
     },
     {
       name: "Singapore (Coming Soon)",
@@ -147,7 +144,6 @@ const DataCenter = () => {
                 <p><b>Location Code:</b> NYC</p>
                 <p><b>Test IP:</b> 104.243.42.233</p>
                 <p><b>Uplink:</b> 1 Gbps</p>
-                <p><b>Services:</b> Minecraft & Dedicated</p>
               </div>
             </div>
 
@@ -169,7 +165,6 @@ const DataCenter = () => {
                 <p><b>Location Code:</b> FSN</p>
                 <p><b>Test IP:</b> Coming Soon</p>
                 <p><b>Uplink:</b> 1 Gbps</p>
-                <p><b>Services:</b> Minecraft</p>
               </div>
             </div>
           </div>

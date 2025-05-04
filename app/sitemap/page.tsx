@@ -24,11 +24,17 @@ export const metadata: Metadata = {
 const Sitemap = () => {
   const sitemaps = [
     { name: "Homepage", url: "/" },
+    { name: "Minecraft Hosting", url: "/minecraft-hosting" },
+    { name: "Game Hosting", url: "/game-hosting" },
+    { name: "Palworld Hosting", url: "/game-hosting/palworld" },
+    { name: "Rust Hosting", url: "/game-hosting/rust" },
+    { name: "Valheim Hosting", url: "/game-hosting/valheim" },
+    { name: "Counter-Strike 2 Hosting", url: "/game-hosting/cs2" },
+    { name: "Dedicated Hosting", url: "/dedicated-hosting" },
+    { name: "Discord Bot Hosting", url: "/discord-bot-hosting" },
     { name: "About Us", url: "/about" },
     { name: "Terms of Service", url: "/terms-of-service" },
     { name: "Privacy Policy", url: "/privacy-policy" },
-    { name: "Game Hosting", url: "/games" },
-    { name: "Minecraft: Java Edition", url: "/games/minecraft-server-hosting" },
   ];
 
   return (

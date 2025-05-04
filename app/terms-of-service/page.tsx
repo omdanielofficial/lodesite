@@ -52,7 +52,7 @@ const TermsOfService = () => {
           </div>
 
           <div className="documentStyling col-span-4 lg:col-span-3">
-            <h1>Privacy Policy</h1>
+            <h1>Terms of Service</h1>
             <p>
               Last Updated: <strong>6 April 2025</strong>
             </p>
@@ -67,7 +67,7 @@ const TermsOfService = () => {
               content={
                 <>
                   <p>
-                    <strong>1.1.</strong> By creating a Lodestone account and using the services, you are deemed to have accepted these Terms of Service and any other legal policies. The terms “We”, “Our” or “Us” shall refer to Lodestone Technologies LTD T/A Lodestone, and “You”, “Your” or “Customer” shall be deemed as the person/company representative accepting these Terms of Service. These terms constitute a binding and enforceable legal agreement between Lodestone and any associated group companies/brands and you.
+                    <strong>1.1.</strong> By creating a Lodestone account and using the services, you are deemed to have accepted these Terms of Service and any other legal policies. The terms “We”, “Our” or “Us” shall refer to Lodestone Technologies Ltd T/A Lodestone, and “You”, “Your” or “Customer” shall be deemed as the person/company representative accepting these Terms of Service. These terms constitute a binding and enforceable legal agreement between Lodestone and any associated group companies/brands and you.
                   </p>
                 </>
               }

@@ -25,6 +25,7 @@ const plans = [
     name: "DISCORD BOT 1GB",
     memory: "1GB RAM",
     storage: "10GB",
+    backups: "5GB",
     pricebasic: "£2.00",
     pricepremium: "£2.00",
     qtrbasic: "£5.40",
@@ -38,6 +39,7 @@ const plans = [
     name: "DISCORD BOT 2GB",
     memory: "2GB RAM",
     storage: "20GB",
+    backups: "10GB",
     pricebasic: "£4.00",
     pricepremium: "£4.00",
     qtrbasic: "£10.80",
@@ -51,6 +53,7 @@ const plans = [
     name: "DISCORD BOT 4GB",
     memory: "4GB RAM",
     storage: "40GB",
+    backups: "20GB",
     pricebasic: "£8.00",
     pricepremium: "£8.00",
     qtrbasic: "£21.60",
@@ -98,7 +101,7 @@ const PlanCard = ({ plan, isPremium }: { plan: any; isPremium: boolean }) => (
       </li>
       <li className="flex items-center gap-2">
         <FontAwesomeIcon icon={faServer} className="w-5" />
-        25GB Backups
+        {plan.backups} Backups
       </li>
       <li className="flex items-center gap-2">
         <FontAwesomeIcon icon={faDatabase} className="w-5" />

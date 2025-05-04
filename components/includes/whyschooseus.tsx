@@ -90,9 +90,9 @@ const features = [
         />
       </svg>
     ),
-    title: "Enterprise Hardware",
+    title: "Premium Hardware",
     description:
-      "All servers run on high-performance AMD Ryzen 9 series processors to deliver unparalleled performance.",
+      "All servers run on the latest AMD Ryzen 9 series processors to deliver unparalleled performance.",
   },
   {
     icon: (

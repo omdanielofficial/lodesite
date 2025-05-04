@@ -35,22 +35,22 @@ const BlogCard: React.FC<BlogCardProps> = ({
 const BlogCards: React.FC = () => {
   const blogPosts = [
     {
-      title: "Install Minecraft Modpacks",
+      title: "Install Minecraft modpacks",
       description: "Modify your game by adding new items...",
       imageUrl: "/assets/images/blog/1.jpg",
       link: "https://lodestone-technologies.gitbook.io/knowledgebase/game-panel/install-modpacks",
     },
     {
-      title: "Change A Minecraft Seed",
+      title: "Change a Minecraft seed",
       description: "World seeds control the terrain generation...",
       imageUrl: "/assets/images/blog/2.webp",
       link: "https://lodestone-technologies.gitbook.io/knowledgebase/minecraft/change-server-world-seed",
     },
     {
-      title: "Setup Minecraft Crossplay",
-      description: "Allow Bedrock players to join your Java server...",
-      imageUrl: "/assets/images/blog/3.jpg",
-      link: "https://lodestone-technologies.gitbook.io/knowledgebase/minecraft/configure-geysermc",
+      title: "Set up the Dynmap plugin",
+      description: "Configure a web-based world map of your server...",
+      imageUrl: "/assets/images/blog/3.png",
+      link: "https://lodestone-technologies.gitbook.io/knowledgebase/minecraft-java/configure-dynmap",
     },
   ];
 
