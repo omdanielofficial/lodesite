@@ -71,7 +71,7 @@ const plans = [
   },
   {
     name: "Ryzen 9 9950X",
-    cpu: "AMD Ryzen 9 9950X",
+    cpu: "Ryzen 9 9950X",
     cores: "16c/32t",
     memory: "256GB DDR5",
     storage: "2x 4TB NVMe",

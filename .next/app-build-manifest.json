@@ -29,25 +29,6 @@
       "static/chunks/874-2bbb8ba067b8c9e4.js",
       "static/chunks/app/page-2f45ef2cbfa2536b.js"
     ],
-    "/about/page": [
-      "static/chunks/webpack-08240b2d702a40db.js",
-      "static/chunks/4bd1b696-5b2b1e7b5478d01a.js",
-      "static/chunks/684-d14ea7d978a5ee01.js",
-      "static/chunks/main-app-cd58424a6e1e8c6f.js",
-      "static/chunks/766-9c47d768e2bf01b1.js",
-      "static/chunks/app/about/page-20ca5ae7af2fa870.js"
-    ],
-    "/discord-bot-hosting/page": [
-      "static/chunks/webpack-08240b2d702a40db.js",
-      "static/chunks/4bd1b696-5b2b1e7b5478d01a.js",
-      "static/chunks/684-d14ea7d978a5ee01.js",
-      "static/chunks/main-app-cd58424a6e1e8c6f.js",
-      "static/chunks/870fdd6f-a974a3c97158ec2b.js",
-      "static/chunks/766-9c47d768e2bf01b1.js",
-      "static/chunks/874-2bbb8ba067b8c9e4.js",
-      "static/chunks/489-ab6b13dccd3de2c5.js",
-      "static/chunks/app/discord-bot-hosting/page-536879eafccdd6dc.js"
-    ],
     "/minecraft-hosting/page": [
       "static/chunks/webpack-08240b2d702a40db.js",
       "static/chunks/4bd1b696-5b2b1e7b5478d01a.js",
@@ -68,7 +49,26 @@
       "static/chunks/766-9c47d768e2bf01b1.js",
       "static/chunks/874-2bbb8ba067b8c9e4.js",
       "static/chunks/489-ab6b13dccd3de2c5.js",
-      "static/chunks/app/dedicated-hosting/page-65492e5f15c601cb.js"
+      "static/chunks/app/dedicated-hosting/page-0691854e5a595ea9.js"
+    ],
+    "/discord-bot-hosting/page": [
+      "static/chunks/webpack-08240b2d702a40db.js",
+      "static/chunks/4bd1b696-5b2b1e7b5478d01a.js",
+      "static/chunks/684-d14ea7d978a5ee01.js",
+      "static/chunks/main-app-cd58424a6e1e8c6f.js",
+      "static/chunks/870fdd6f-a974a3c97158ec2b.js",
+      "static/chunks/766-9c47d768e2bf01b1.js",
+      "static/chunks/874-2bbb8ba067b8c9e4.js",
+      "static/chunks/489-ab6b13dccd3de2c5.js",
+      "static/chunks/app/discord-bot-hosting/page-536879eafccdd6dc.js"
+    ],
+    "/about/page": [
+      "static/chunks/webpack-08240b2d702a40db.js",
+      "static/chunks/4bd1b696-5b2b1e7b5478d01a.js",
+      "static/chunks/684-d14ea7d978a5ee01.js",
+      "static/chunks/main-app-cd58424a6e1e8c6f.js",
+      "static/chunks/766-9c47d768e2bf01b1.js",
+      "static/chunks/app/about/page-20ca5ae7af2fa870.js"
     ],
     "/sitemap/page": [
       "static/chunks/webpack-08240b2d702a40db.js",
