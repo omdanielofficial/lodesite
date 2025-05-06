@@ -126,30 +126,6 @@
         "x-next-revalidate-tag-token"
       ]
     },
-    "/sitemap": {
-      "experimentalBypassFor": [
-        {
-          "type": "header",
-          "key": "Next-Action"
-        },
-        {
-          "type": "header",
-          "key": "content-type",
-          "value": "multipart/form-data;.*"
-        }
-      ],
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/sitemap",
-      "dataRoute": "/sitemap.rsc",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
     "/about": {
       "experimentalBypassFor": [
         {
@@ -174,7 +150,7 @@
         "x-next-revalidate-tag-token"
       ]
     },
-    "/discord-bot-hosting": {
+    "/sitemap": {
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -187,8 +163,8 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/discord-bot-hosting",
-      "dataRoute": "/discord-bot-hosting.rsc",
+      "srcRoute": "/sitemap",
+      "dataRoute": "/sitemap.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -221,13 +197,37 @@
         "x-next-revalidated-tags",
         "x-next-revalidate-tag-token"
       ]
+    },
+    "/discord-bot-hosting": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "Next-Action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/discord-bot-hosting",
+      "dataRoute": "/discord-bot-hosting.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
     }
   },
   "dynamicRoutes": {},
   "notFoundRoutes": [],
   "preview": {
-    "previewModeId": "5b19a5ea3e0f6ebb0b85aae826eb0336",
-    "previewModeSigningKey": "e3d79e700617c8c9f6cd3af15e335397e0b08ace3ab1a1ad7387b9d80accdc10",
-    "previewModeEncryptionKey": "5ba679cd50096cad3a4317864b4fc391460674d4458cb04fafa897b00710eb05"
+    "previewModeId": "c1bf23ee4609aecfd2f5c2d74b24d8de",
+    "previewModeSigningKey": "1e403b239767af9cbd14907882ce5ad149c53626fff4f1212343d1aa49bb338b",
+    "previewModeEncryptionKey": "92bd3486962074440c7e3e6e58f98079fe5b875eda6cad7fd7771ac3583284bd"
   }
 }
