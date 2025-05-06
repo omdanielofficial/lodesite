@@ -37,7 +37,7 @@ const HomePage = () => {
           Powerful, reliable, and affordable game hosting
         </h1>
         <p className="max-w-xl">
-          Whether you&apos;re hosting a Minecraft server for a few friends or a large community, you can trust us to maintain performance and uptime
+          Whether you&apos;re hosting a server for a few friends or a large community, you can trust us to maintain performance and uptime
         </p>
 
         {/* Buttons container */}
