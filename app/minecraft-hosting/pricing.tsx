@@ -16,18 +16,19 @@ import {
   faServer,
   faCircleExclamation,
   faSackDollar,
+  faBoxOpen,
 } from "@fortawesome/free-solid-svg-icons";
 
 const plans = [
   {
     name: "STONE",
     memory: "1GB RAM",
-    storage: "100GB+",
-    backups: "50GB+",
-    pricebasic: "£1.00",
-    pricepremium: "£1.00",
-    qtrbasic: "£2.70",
-    qtrpremium: "£2.70",
+    storage: "10GB",
+    backups: "5GB",
+    pricebasic: "£1.25",
+    pricepremium: "£1.25",
+    qtrbasic: "£3.38",
+    qtrpremium: "£3.38",
     image: "/assets/images/minecraft-hosting/stone.webp",
     linkbasic: "https://billing.lodestone.host/index.php?rp=/store/minecraft-hosting/stone",
     linkpremium: "https://billing.lodestone.host/index.php?rp=/store/minecraft-hosting/stone",
@@ -36,12 +37,12 @@ const plans = [
   {
     name: "COAL",
     memory: "2GB RAM",
-    storage: "100GB+",
-    backups: "50GB+",
-    pricebasic: "£2.00",
-    pricepremium: "£2.00",
-    qtrbasic: "£5.40",
-    qtrpremium: "£5.40",
+    storage: "20GB",
+    backups: "10GB",
+    pricebasic: "£2.50",
+    pricepremium: "£2.50",
+    qtrbasic: "£6.75",
+    qtrpremium: "£6.75",
     image: "/assets/images/minecraft-hosting/coal.webp",
     linkbasic: "https://billing.lodestone.host/index.php?rp=/store/minecraft-hosting/coal",
     linkpremium: "https://billing.lodestone.host/index.php?rp=/store/minecraft-hosting/coal",
@@ -50,12 +51,12 @@ const plans = [
   {
     name: "IRON",
     memory: "4GB RAM",
-    storage: "100GB+",
-    backups: "50GB+",
-    pricebasic: "£4.00",
-    pricepremium: "£4.00",
-    qtrbasic: "£10.80",
-    qtrpremium: "£10.80",
+    storage: "40GB",
+    backups: "20GB",
+    pricebasic: "£5.00",
+    pricepremium: "£5.00",
+    qtrbasic: "£13.50",
+    qtrpremium: "£13.50",
     image: "/assets/images/minecraft-hosting/iron.webp",
     linkbasic: "https://billing.lodestone.host/index.php?rp=/store/minecraft-hosting/iron",
     linkpremium: "https://billing.lodestone.host/index.php?rp=/store/minecraft-hosting/iron",
@@ -64,12 +65,12 @@ const plans = [
   {
     name: "GOLD",
     memory: "6GB RAM",
-    storage: "100GB+",
-    backups: "50GB+",
-    pricebasic: "£6.00",
-    pricepremium: "£6.00",
-    qtrbasic: "£16.20",
-    qtrpremium: "£16.20",
+    storage: "60GB",
+    backups: "30GB",
+    pricebasic: "£7.50",
+    pricepremium: "£7.50",
+    qtrbasic: "£20.25",
+    qtrpremium: "£20.25",
     image: "/assets/images/minecraft-hosting/gold.webp",
     linkbasic: "https://billing.lodestone.host/index.php?rp=/store/minecraft-hosting/gold",
     linkpremium: "https://billing.lodestone.host/index.php?rp=/store/minecraft-hosting/gold",
@@ -78,12 +79,12 @@ const plans = [
   {
     name: "LAPIS",
     memory: "8GB RAM",
-    storage: "100GB+",
-    backups: "50GB+",
-    pricebasic: "£8.00",
-    pricepremium: "£8.00",
-    qtrbasic: "£21.60",
-    qtrpremium: "£21.60",
+    storage: "80GB",
+    backups: "40GB",
+    pricebasic: "£10.00",
+    pricepremium: "£10.00",
+    qtrbasic: "£27.00",
+    qtrpremium: "£27.00",
     image: "/assets/images/minecraft-hosting/lapis.webp",
     linkbasic: "https://billing.lodestone.host/index.php?rp=/store/minecraft-hosting/lapis",
     linkpremium: "https://billing.lodestone.host/index.php?rp=/store/minecraft-hosting/lapis",
@@ -92,12 +93,12 @@ const plans = [
   {
     name: "REDSTONE",
     memory: "10GB RAM",
-    storage: "100GB+",
-    backups: "50GB+",
-    pricebasic: "£10.00",
-    pricepremium: "£10.00",
-    qtrbasic: "£27.00",
-    qtrpremium: "£27.00",
+    storage: "100GB",
+    backups: "50GB",
+    pricebasic: "£12.50",
+    pricepremium: "£12.50",
+    qtrbasic: "£33.75",
+    qtrpremium: "£33.75",
     image: "/assets/images/minecraft-hosting/redstone.webp",
     linkbasic: "https://billing.lodestone.host/index.php?rp=/store/minecraft-hosting/redstone",
     linkpremium: "https://billing.lodestone.host/index.php?rp=/store/minecraft-hosting/redstone",
@@ -106,12 +107,12 @@ const plans = [
   {
     name: "DIAMOND",
     memory: "12GB RAM",
-    storage: "100GB+",
-    backups: "50GB+",
-    pricebasic: "£12.00",
-    pricepremium: "£12.00",
-    qtrbasic: "£32.40",
-    qtrpremium: "£32.40",
+    storage: "120GB",
+    backups: "60GB",
+    pricebasic: "£15.00",
+    pricepremium: "£15.00",
+    qtrbasic: "£40.50",
+    qtrpremium: "£40.50",
     image: "/assets/images/minecraft-hosting/diamond.webp",
     linkbasic: "https://billing.lodestone.host/index.php?rp=/store/minecraft-hosting/diamond",
     linkpremium: "https://billing.lodestone.host/index.php?rp=/store/minecraft-hosting/diamond",
@@ -120,10 +121,10 @@ const plans = [
   {
     name: "EMERALD",
     memory: "16GB RAM",
-    storage: "150GB+",
-    backups: "100GB+",
-    pricebasic: "£16.00",
-    pricepremium: "£16.00",
+    storage: "160GB",
+    backups: "80GB",
+    pricebasic: "£20.00",
+    pricepremium: "£20.00",
     qtrbasic: "£43.20",
     qtrpremium: "£43.20",
     image: "/assets/images/minecraft-hosting/emerald.webp",
@@ -134,12 +135,12 @@ const plans = [
   {
     name: "AMETHYST",
     memory: "24GB RAM",
-    storage: "150GB+",
-    backups: "100GB+",
-    pricebasic: "£24.00",
-    pricepremium: "£24.00",
-    qtrbasic: "£64.80",
-    qtrpremium: "£64.80",
+    storage: "240GB",
+    backups: "120GB",
+    pricebasic: "£30.00",
+    pricepremium: "£30.00",
+    qtrbasic: "£81.00",
+    qtrpremium: "£81.00",
     image: "/assets/images/minecraft-hosting/amethyst.webp",
     linkbasic: "https://billing.lodestone.host/index.php?rp=/store/minecraft-hosting/amethyst",
     linkpremium: "https://billing.lodestone.host/index.php?rp=/store/minecraft-hosting/amethyst",
@@ -148,12 +149,12 @@ const plans = [
   {
     name: "BEACON",
     memory: "32GB RAM",
-    storage: "150GB+",
-    backups: "100GB+",
-    pricebasic: "£32.00",
-    pricepremium: "£32.00",
-    qtrbasic: "£86.40",
-    qtrpremium: "£86.40",
+    storage: "320GB",
+    backups: "160GB",
+    pricebasic: "£40.00",
+    pricepremium: "£40.00",
+    qtrbasic: "£108.00",
+    qtrpremium: "£108.00",
     image: "/assets/images/minecraft-hosting/beacon.webp",
     linkbasic: "https://billing.lodestone.host/index.php?rp=/store/minecraft-hosting/beacon",
     linkpremium: "https://billing.lodestone.host/index.php?rp=/store/minecraft-hosting/beacon",
@@ -197,23 +198,19 @@ const PlanCard = ({ plan, isPremium }: { plan: any; isPremium: boolean }) => (
     <ul className="mt-6">
     <li className="flex items-center gap-2">
         <FontAwesomeIcon icon={faHardDrive} className="w-5" />
-        {plan.storage} Storage
+        {plan.storage} NVMe Storage
       </li>
       <li className="flex items-center gap-2">
-        <FontAwesomeIcon icon={faServer} className="w-5" />
+        <FontAwesomeIcon icon={faBoxOpen} className="w-5" />
         {plan.backups} Backups
       </li>
       <li className="flex items-center gap-2">
         <FontAwesomeIcon icon={faDatabase} className="w-5" />
-        3+ Databases
+        5 MySQL Databases
       </li>
       <li className="flex items-center gap-2">
         <FontAwesomeIcon icon={faUsers} className="w-5" />
         Unlimited Slots
-      </li>
-      <li className="flex items-center gap-2">
-        <FontAwesomeIcon icon={faWifi} className="w-5" />
-        Online 24/7
       </li>
     </ul>
     <div className="mt-6 flex items-center justify-between">
@@ -273,17 +270,17 @@ const Pricing = () => {
             <div className="flex flex-col items-center gap-4 text-center md:flex-row">
               <div className="mb-2 flex items-center gap-1 md:mb-0">
                 <FontAwesomeIcon icon={faMicrochip} className="w-5" />{" "}
-                {isPremium ? "AMD Ryzen 9 5950X" : "AMD Ryzen 9 5950X"}
+                <strong>{isPremium ? "AMD Ryzen 9 5950X" : "AMD Ryzen 9 5950X"}</strong>
               </div>
               <div className="mb-2 flex items-center gap-1 md:mb-0">
                 <FontAwesomeIcon icon={faMemory} className="w-5" />{" "}
                 {isPremium ? "DDR4 RAM" : "DDR4 RAM"}
               </div>
               <div className="flex items-center gap-1">
-                <FontAwesomeIcon icon={faHardDrive} className="w-5" />{" "}
+                <FontAwesomeIcon icon={faShield} className="w-5" />{" "}
                 {isPremium
-                  ? "NVMe SSDs"
-                  : "NVMe SSDs"}
+                  ? "DDoS Protection"
+                  : "DDoS Protection"}
               </div>
             </div>
           </div>

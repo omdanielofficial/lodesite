@@ -8,9 +8,6 @@ interface DataCenter {
   flagUrl: string;
   latitude: number;
   longitude: number;
-  locationCode?: string;
-  testIp?: string;
-  uplink?: string;
 }
 
 const DataCenter = () => {
@@ -25,18 +22,12 @@ const DataCenter = () => {
       flagUrl: "/assets/images/worldmap/us.webp",
       latitude: 20.8,
       longitude: -48.6,
-      locationCode: "NYC",
-      testIp: "104.243.42.233",
-      uplink: "1 Gbps",
     },
     {
       name: "Falkenstein (Coming Soon)",
       flagUrl: "/assets/images/worldmap/de.webp",
       latitude: 20.8,
       longitude: -4,
-      locationCode: "FSN",
-      testIp: "",
-      uplink: "1 Gbps",
     },
     {
       name: "Singapore (Coming Soon)",
@@ -102,6 +93,7 @@ const DataCenter = () => {
                 </div>
               </div>
             ))}
+
             {hoveredDataCenter && (
               <div
                 ref={tooltipRef}
@@ -123,52 +115,6 @@ const DataCenter = () => {
               </div>
             )}
           </div>
-          <div className="mt-12 grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div className="bg-secondary rounded-xl p-6 shadow-lg">
-              <div className="flex items-center mb-4">
-                <Image
-                  src="/assets/images/worldmap/us.webp"
-                  alt="Chicago, Illinois, USA Flag"
-                  width={30}
-                  height={20}
-                  className="mr-3 rounded-full"
-                />
-                <h3 className="text-lg font-semibold">New York City, United States</h3>
-              </div>
-              <p className="text-gray-300 mb-4">
-                New York City is one of the largest internet hubs in the United States,
-                ultimately providing amazing connectivity to the rest of North &
-                South America, Europe, and parts of Asia.
-              </p>
-              <div>
-                <p><b>Location Code:</b> NYC</p>
-                <p><b>Test IP:</b> 104.243.42.233</p>
-                <p><b>Uplink:</b> 1 Gbps</p>
-              </div>
-            </div>
-
-            <div className="bg-secondary rounded-xl p-6 shadow-lg">
-              <div className="flex items-center mb-4">
-                <Image
-                  src="/assets/images/worldmap/de.webp"
-                  alt="London, United Kingdom Flag"
-                  width={30}
-                  height={20}
-                  className="mr-3 rounded-full"
-                />
-                <h3 className="text-lg font-semibold">Falkenstein, Germany</h3>
-              </div>
-              <p className="text-gray-300 mb-4">
-              Falkenstein is a crucial global internet hub, connecting Europe, North America, and Asia. Its robust infrastructure facilitates significant international data exchange.
-              </p>
-              <div>
-                <p><b>Location Code:</b> FSN</p>
-                <p><b>Test IP:</b> Coming Soon</p>
-                <p><b>Uplink:</b> 1 Gbps</p>
-              </div>
-            </div>
-          </div>
-
         </div>
       </section>
     </>
